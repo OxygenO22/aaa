@@ -1,11 +1,9 @@
-import React from 'react'
-import { JumpButton } from '../../ui/buttons/jumpButton/JumpButton';
+import React from 'react';
 
 export const Music = () => {
   return (
     <div>
       Music
-      <JumpButton />
     </div>
   )
 }

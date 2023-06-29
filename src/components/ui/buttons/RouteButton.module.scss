@@ -1,4 +1,4 @@
-.button {
+.button, .button_active {
   font-size: 1.5em;
   text-decoration: none;
   color: #fff;
@@ -10,4 +10,10 @@
   &:last-child {
     margin-right: 0;
   }
+
 }
+
+.button_active {
+  color: #f5c339;
+}
+

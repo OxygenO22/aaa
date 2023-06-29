@@ -1,6 +1,6 @@
 import { FC } from "react";
-import { Link } from "react-router-dom";
-import styles from "./RouteButton.module.scss";
+import { NavLink } from "react-router-dom";
+import st from "./RouteButton.module.scss";
 
 interface IRouteButton {
   path: string;
@@ -9,6 +9,11 @@ interface IRouteButton {
 
 export const RouteButton: FC<IRouteButton> = (props) => {
   return (
-    <Link className={styles.button} to={props.path}>{props.name}</Link>
+    <NavLink
+      className={({ isActive }) => (isActive ? st.button_active : st.button)}
+      to={props.path}
+    >
+      {props.name}
+    </NavLink>
   );
 };
