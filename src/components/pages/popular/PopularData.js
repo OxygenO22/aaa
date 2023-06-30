@@ -5,11 +5,11 @@ import Tatan from '../../../pictures/popular/4.jpg';
 import MJHGF from '../../../pictures/popular/5.jpg';
 
 const PopularData = [
-  {id: 1, to: '1', title: 'Cars', text: 'Lorem Cars', src: `${Cars}`, alt: 'Cars'},
-  {id: 2, to: '2', title: 'New', text: 'Lorem New', src: `${New}`, alt: 'New'},
-  {id: 3, to: '3', title: 'Bums', text: 'Lorem Bums', src: `${Bums}`, alt: 'Bums'},
-  {id: 4, to: '4', title: 'Tatan', text: 'Lorem Tatan', src: `${Tatan}`, alt: 'Tatan'},
-  {id: 5, to: '5', title: 'MJHGF', text: 'Lorem MJHGF', src: `${MJHGF}`, alt: 'MJHGF'},
+  {id: 1, to: '1', title: 'Cars', text: 'Lorem Cars Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo illo porro labore eligendi distinctio dicta quaerat mollitia nesciunt laborum dolor. Voluptate iure error, quae consequatur dolore magni recusandae nemo similique vel alias ipsum dicta asperiores quam minus neque reiciendis architecto quos ea odit iusto fuga eos et obcaecati! Provident, modi.', src: `${Cars}`, alt: 'Cars'},
+  {id: 2, to: '2', title: 'New', text: 'Lorem New Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo illo porro labore eligendi distinctio dicta quaerat mollitia nesciunt laborum dolor. Voluptate iure error, quae consequatur dolore magni recusandae nemo similique vel alias ipsum dicta asperiores quam minus neque reiciendis architecto quos ea odit iusto fuga eos et obcaecati! Provident, modi.', src: `${New}`, alt: 'New'},
+  {id: 3, to: '3', title: 'Bums', text: 'Lorem Bums Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo illo porro labore eligendi distinctio dicta quaerat mollitia nesciunt laborum dolor. Voluptate iure error, quae consequatur dolore magni recusandae nemo similique vel alias ipsum dicta asperiores quam minus neque reiciendis architecto quos ea odit iusto fuga eos et obcaecati! Provident, modi.', src: `${Bums}`, alt: 'Bums'},
+  {id: 4, to: '4', title: 'Tatan', text: 'Lorem Tatan Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo illo porro labore eligendi distinctio dicta quaerat mollitia nesciunt laborum dolor. Voluptate iure error, quae consequatur dolore magni recusandae nemo similique vel alias ipsum dicta asperiores quam minus neque reiciendis architecto quos ea odit iusto fuga eos et obcaecati! Provident, modi.', src: `${Tatan}`, alt: 'Tatan'},
+  {id: 5, to: '5', title: 'MJHGF', text: 'Lorem MJHGF Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo illo porro labore eligendi distinctio dicta quaerat mollitia nesciunt laborum dolor. Voluptate iure error, quae consequatur dolore magni recusandae nemo similique vel alias ipsum dicta asperiores quam minus neque reiciendis architecto quos ea odit iusto fuga eos et obcaecati! Provident, modi.', src: `${MJHGF}`, alt: 'MJHGF'},
 ];
 
 export {PopularData};

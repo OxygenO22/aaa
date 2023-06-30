@@ -8,13 +8,21 @@ export const PopularSinglePage = () => {
 
   return (
     <div className={st.singlepage__wrapper}>
-      <JumpButton />
+      <div className={st.singlepage__back_wrapper}>
+        <JumpButton />
+      </div>
       {PopularData.map(
         (data) =>
-           id === data.to && (
-            <div >
-              <h3>{data.title}</h3>
-              <p>{data.text}</p>
+          id === data.to && (
+            <div className={st.singlepage__inner}>
+              <div className={st.singlepage__picture}>
+                <img className={st.singlepage__img} src={data.src} alt={data.alt} />
+              </div>
+              <div className={st.singlepage__content}>
+                <h3 className={st.singlepage__title}>{data.title}</h3>
+                <p className={st.singlepage__text}>{data.text}</p>
+                <p></p>
+              </div>
             </div>
           )
       )}
