@@ -1,0 +1,31 @@
+.popular__description_inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+}
+
+.popular__description_title_wrapper {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.popular__description_title {
+  font-size: 2em;
+  font-weight: 900;
+  line-height: 32px;
+  color: #fff;
+}
+
+.popular__description_text_wrapper {
+  width: 100%;
+}
+
+.popular__description_text {
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fff;
+}

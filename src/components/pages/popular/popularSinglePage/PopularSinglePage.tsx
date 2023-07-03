@@ -15,13 +15,16 @@ export const PopularSinglePage = () => {
         (data) =>
           id === data.to && (
             <div className={st.singlepage__inner}>
+              <h3 className={st.singlepage__title}>{data.title}</h3>
               <div className={st.singlepage__picture}>
-                <img className={st.singlepage__img} src={data.src} alt={data.alt} />
+                <img
+                  className={st.singlepage__img}
+                  src={data.src}
+                  alt={data.alt}
+                />
               </div>
               <div className={st.singlepage__content}>
-                <h3 className={st.singlepage__title}>{data.title}</h3>
                 <p className={st.singlepage__text}>{data.text}</p>
-                <p></p>
               </div>
             </div>
           )

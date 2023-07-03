@@ -1,0 +1,38 @@
+.popular__cart {
+  width: 200px;
+  height: 300px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  margin: 10px;
+}
+
+.cart__link {
+  text-decoration: none;
+}
+
+.cart__picture {
+  width: 100%;
+  height: 50%;
+}
+
+.cart__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cart__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.cart__title {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #fff;
+}
