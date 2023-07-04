@@ -1,12 +1,25 @@
-import { PopularData } from "../../pages/popular/PopularData";
 import { Link } from "react-router-dom";
 import st from './Cart.module.scss';
+import { FC } from "react";
 
-export const Cart = () => {
+interface ICart {
+  componentData: IData[];
+}
+
+interface IData {
+  id: number;
+  to: string;
+  title: string;
+  text: string;
+  src: string;
+  alt: string;
+}
+
+export const Cart: FC<ICart> = ({ componentData }) => {
   return (
     <>
-      {PopularData.map((data) => (
-        <div className={st.popular__cart} key={data.id}>
+      {componentData.map((data: IData) => (
+        <div className={st.cart__wrapper} key={data.id}>
           <Link className={st.cart__link} to={data.to}>
             <div className={st.cart__picture}>
               <img className={st.cart__img} src={data.src} alt={data.alt} />
@@ -19,4 +32,4 @@ export const Cart = () => {
       ))}
     </>
   );
-}
+};

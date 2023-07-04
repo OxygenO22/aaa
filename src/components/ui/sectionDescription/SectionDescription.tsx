@@ -1,21 +1,31 @@
-import { PopularMainData } from "../../pages/popular/PopularData";
-import st from './SectionDescription.module.scss'
+import st from './SectionDescription.module.scss';
+import { FC } from 'react';
 
-export const SectionDescription = () => {
+interface ISectionDescription {
+  componentData: IData[];
+}
+
+interface IData {
+  id: number;
+  mainTitle: string;
+  mainDescription: string;
+}
+
+export const SectionDescription: FC<ISectionDescription> = ({componentData}) => {
   return (
-    <>
-      {PopularMainData.map((data) => (
-        <div className={st.popular__description_inner} key={data.id}>
-          <div className={st.popular__description_title_wrapper}>
-            <h1 className={st.popular__description_title}>{data.mainTitle}</h1>
+    <div className={st.description__wrapper}>
+      {componentData.map((data: IData) => (
+        <div className={st.description__inner} key={data.id}>
+          <div className={st.description__title_wrapper}>
+            <h1 className={st.description__title}>{data.mainTitle}</h1>
           </div>
-          <div className={st.popular__description_text_wrapper}>
-            <p className={st.popular__description_text}>
+          <div className={st.description__text_wrapper}>
+            <p className={st.description__text}>
               {data.mainDescription}
             </p>
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
-}
+};
