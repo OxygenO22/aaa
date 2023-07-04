@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import { JumpButton } from '../buttons/jumpButton/JumpButton';
 import st from './SinglePage.module.scss';
+import { Link } from 'react-router-dom';
 
 interface ISinglePage {
   componentData: IData[];
@@ -14,6 +15,8 @@ interface IData {
   text: string;
   src: string;
   alt: string;
+  link?: string;
+  linkName?: string;
 }
 
 export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
@@ -36,6 +39,17 @@ export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
               </div>
               <div className={st.singlepage__content}>
                 <p className={st.singlepage__text}>{data.text}</p>
+              </div>
+              <div className={st.singlepage__link_wrapper}>
+                {data.link && data.linkName && (
+                  <Link
+                    className={st.singlepage__link}
+                    to={data.link}
+                    target="_blank"
+                  >
+                    <p className={st.singlepage__link_text}>{data.linkName}</p>
+                  </Link>
+                )}
               </div>
             </div>
           )

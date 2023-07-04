@@ -47,6 +47,31 @@
 }
 
 .singlepage__text {
-  font-size: 1em;
+  font-size: 1.13em;
   font-weight: 400;
+  line-height: 28px;
+}
+
+.singlepage__link_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.singlepage__link {
+  text-decoration: none;
+}
+
+.singlepage__link_text {
+  font-size: 1.8em;
+  font-weight: 600;
+  line-height: 32px;
+  color: #fff;
+  transition: .5s;
+  &:hover {
+    color: #f5c339;
+  }
+  
 }

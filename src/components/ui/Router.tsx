@@ -6,6 +6,7 @@ import { Layout } from "../pages/Layout";
 import { Movies } from "../pages/movies/Movies";
 import { Popular } from "../pages/popular/Popular";
 import { PopularSinglePage } from "../pages/popular/popularSinglePage/PopularSinglePage";
+import { MusicSinglePage } from "../pages/music/musicSinglePage/MusicSinglePage";
 
 export const Router = () => {
   return (
@@ -16,6 +17,7 @@ export const Router = () => {
           <Route element={<Popular />} path="Popular" />
           <Route element={<PopularSinglePage />} path="Popular/:id" />
           <Route element={<Music />} path="Music" />
+          <Route element={<MusicSinglePage />} path="Music/:id" />
           <Route element={<Movies />} path="Movies" />
           <Route element={<div>Not found</div>} path="*" />
         </Route>
