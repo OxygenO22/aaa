@@ -14,6 +14,7 @@
 .cart__picture {
   width: 100%;
   height: 50%;
+  margin-bottom: 10px;
 }
 
 .cart__img {
@@ -29,10 +30,11 @@
   align-items: center;
   width: 100%;
   height: 50%;
+  padding: 0px 10px;
 }
 
 .cart__title {
   font-size: 1.2em;
-  font-weight: 600;
+  font-weight: 400;
   color: #fff;
 }
