@@ -39,11 +39,31 @@
   width: 100%;
 }
 
+.singlepage__content_movie {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.singlepage__content_movie_title {
+  font-size: 1.4em;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.singlepage__title_wrapper {
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f5c339;
+}
+
 .singlepage__title {
   font-size: 1.8em;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .singlepage__text {

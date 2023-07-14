@@ -17,6 +17,12 @@ interface IData {
   alt: string;
   link?: string;
   linkName?: string;
+  movies?: IMovies[];
+}
+
+interface IMovies {
+  id: number;
+  movie: string;
 }
 
 export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
@@ -29,16 +35,38 @@ export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
         (data: IData) =>
           id === data.to && (
             <div className={st.singlepage__inner}>
-              <h3 className={st.singlepage__title}>{data.title}</h3>
-              <div className={st.singlepage__picture}>
-                <img
-                  className={st.singlepage__img}
-                  src={data.src}
-                  alt={data.alt}
-                />
+              <div className={st.singlepage__title_wrapper}>
+                <h3 className={st.singlepage__title}>{data.title}</h3>
               </div>
+
               <div className={st.singlepage__content}>
-                <p className={st.singlepage__text}>{data.text}</p>
+                {data.movies &&
+                  data.movies.map((data) => (
+                    <div className={st.singlepage__content_movie} key={data.id}>
+                      <h4 className={st.singlepage__content_movie_title}>
+                        {data.movie}
+                      </h4>
+                      <p className={st.singlepage__text}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptates aliquid hic rem laboriosam dolores ad aut
+                        vero porro, sit blanditiis quis nam numquam velit, omnis
+                        eaque distinctio est rerum officia. Nihil molestias
+                        accusamus facere iusto nisi laboriosam atque numquam,
+                        vel sit, delectus sint expedita error placeat velit
+                        aperiam! Itaque eum quis nostrum deserunt, temporibus
+                        quisquam dolore aliquid sint facere labore, quaerat
+                        aperiam vel ex accusamus sit consequatur ut? Laboriosam
+                        animi voluptatum veritatis ullam et incidunt illum
+                        blanditiis hic, magnam architecto amet illo odio facilis
+                        rem? Repellat ratione, vitae repudiandae ut consequatur
+                        aspernatur quaerat ad deleniti, dicta quo eligendi
+                        nesciunt ex?
+                      </p>
+                    </div>
+                  ))}
+                {data.text && (
+                  <p className={st.singlepage__text}>{data.text}</p>
+                )}
               </div>
               <div className={st.singlepage__link_wrapper}>
                 {data.link && data.linkName && (
