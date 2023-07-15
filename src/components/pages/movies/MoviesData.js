@@ -97,7 +97,7 @@ const MoviesData = [
     {id: 4, movie: 'Анчартед'},
     {id: 5, movie: 'Круиз по джунглям'},
     {id: 6, movie: 'Джуманджи'},
-    {id: 7, movie: 'Джуманджи 2uyiuyio'},
+    {id: 7, movie: 'Джуманджи 2'},
 ]},
 ];
 
