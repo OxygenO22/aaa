@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/aaa/static/css/main.0069e754.css",
+    "main.js": "/aaa/static/js/main.2dc07349.js",
+    "static/media/Ambient.png": "/aaa/static/media/Ambient.5568be426580abae4313.png",
+    "static/media/3.jpg": "/aaa/static/media/3.5121346cfe2ac18839ef.jpg",
+    "static/media/4.jpg": "/aaa/static/media/4.94d434557d544a00319d.jpg",
+    "static/media/Monstro.jpg": "/aaa/static/media/Monstro.1cfc3dd841854733e685.jpg",
+    "static/media/Anxious.jpg": "/aaa/static/media/Anxious.f56c9a9d47efb65a9e45.jpg",
+    "static/media/RussianSeries.jpg": "/aaa/static/media/RussianSeries.bd75ec0708fe50d65c38.jpg",
+    "static/media/Wave.jpg": "/aaa/static/media/Wave.f8010c013742059e8b20.jpg",
+    "static/media/Fault.jpg": "/aaa/static/media/Fault.f394e3bad6a1a8cebe9f.jpg",
+    "static/media/San-Andreas.jpg": "/aaa/static/media/San-Andreas.e894c40ae277249672fc.jpg",
+    "static/media/Grendlandia.jpg": "/aaa/static/media/Grendlandia.ca0521cb447b612eb194.jpg",
+    "static/media/SugarLife.jpg": "/aaa/static/media/SugarLife.bd3f7f5329cafa9c5548.jpg",
+    "static/media/UsualWoman.jpg": "/aaa/static/media/UsualWoman.0ef75298388d1c1416ff.jpg",
+    "static/media/Konteiner.jpg": "/aaa/static/media/Konteiner.ab784d8f2d685dde0ef0.jpg",
+    "static/media/ForFamaly.jpg": "/aaa/static/media/ForFamaly.f99f9b4646111af53fea.jpg",
+    "static/media/Catastrophies.jpg": "/aaa/static/media/Catastrophies.e9e2d001e106a0c29448.jpg",
+    "static/media/Space.jpg": "/aaa/static/media/Space.b3e0f0919202b04059a1.jpg",
+    "static/media/Brigada.jpg": "/aaa/static/media/Brigada.45443dd3302477b91419.jpg",
+    "static/media/Logo.png": "/aaa/static/media/Logo.aee0c03311ee3d03ad55.png",
+    "static/media/Romantical.jpg": "/aaa/static/media/Romantical.e55b8922d4b8a085f8ac.jpg",
+    "static/media/Comedies.jpg": "/aaa/static/media/Comedies.f2c9b17e7fec4471c406.jpg",
+    "static/media/ForCouples.jpg": "/aaa/static/media/ForCouples.f2c9b17e7fec4471c406.jpg",
+    "static/media/1.jpg": "/aaa/static/media/1.fbc5a58f755e689782b2.jpg",
+    "static/media/Thrillers.jpg": "/aaa/static/media/Thrillers.3961243afbd0d5e607d7.jpg",
+    "static/media/5.jpg": "/aaa/static/media/5.e714830e42adcfb80df0.jpg",
+    "static/media/Horrors.jpg": "/aaa/static/media/Horrors.c35d0c1acb5a19774316.jpg",
+    "index.html": "/aaa/index.html",
+    "main.0069e754.css.map": "/aaa/static/css/main.0069e754.css.map",
+    "main.2dc07349.js.map": "/aaa/static/js/main.2dc07349.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0069e754.css",
+    "static/js/main.2dc07349.js"
+  ]
+}
