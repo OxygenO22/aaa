@@ -44,6 +44,9 @@
   padding: 10px;
   margin-bottom: 20px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .singlepage__content_movie_title {
@@ -60,8 +63,8 @@
 }
 
 .singlepage__img_wrapper {
-  width: 200px;
-  height: 300px;
+  width: 250px;
+  height: 310px;
   margin-right: 10px;
 }
 

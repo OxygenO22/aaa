@@ -13,7 +13,7 @@ export const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<Layout />} path="/">
+        <Route element={<Layout />} path="/aaa/">
           <Route element={<Home />} index />
           <Route element={<Popular />} path="Popular" />
           <Route element={<PopularSinglePage />} path="Popular/:id" />
