@@ -12,7 +12,6 @@ interface IData {
   title: string;
   text: string;
   src: string;
-  alt: string;
 }
 
 export const Cart: FC<ICart> = ({ componentData }) => {
@@ -22,7 +21,7 @@ export const Cart: FC<ICart> = ({ componentData }) => {
         <div className={st.cart__wrapper} key={data.id}>
           <Link className={st.cart__link} to={data.to}>
             <div className={st.cart__picture}>
-              <img className={st.cart__img} src={data.src} alt={data.alt} />
+              <img className={st.cart__img} src={data.src} alt={data.title} />
             </div>
             <div className={st.cart__content}>
               <h3 className={st.cart__title}>{data.title}</h3>
