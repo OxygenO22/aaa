@@ -8,26 +8,45 @@ interface IHomeMenu {
 }
 
 export const HomeMenu: FC<IHomeMenu> = ({ onLanguageSwitch }) => {
-  const [language, setLanguage] = useState("ru");
+  const [language, setLanguage] = useState('ru');
+
+  /* () => {
+    if (localStorage.getItem('current language') === null) {
+      return "ru";
+    } else {
+      return localStorage.getItem("current language");
+      
+    }
+  } */
   const intl = useIntl();
 
   useEffect(() => {
-    onLanguageSwitch(language);
+    onLanguageSwitch(language!);
+    localStorage.setItem("current language", JSON.stringify(language));
   }, [language, onLanguageSwitch]);
 
   const changelanguage = () => {
-    setLanguage(prev => prev === 'ru' ? 'en' : 'ru');
+    setLanguage((prev) => (prev === "ru" ? "en" : "ru"));
+    localStorage.setItem("current language", JSON.stringify(language));
   };
-
 
   return (
     <>
-      <RouteButton path="/aaa/" name="Home" />
-      <RouteButton path="Popular" name="Popular" />
-      <RouteButton path="Music" name="Music" />
+      <RouteButton
+        path="/aaa/"
+        name={intl.formatMessage({ id: "app.button.Home" })}
+      />
+      <RouteButton
+        path="Popular"
+        name={intl.formatMessage({ id: "app.button.Popular" })}
+      />
+      <RouteButton
+        path="Music"
+        name={intl.formatMessage({ id: "app.button.Music" })}
+      />
       <RouteButton
         path="Movies"
-        name={intl.formatMessage({ id: "app.button.movies" })}
+        name={intl.formatMessage({ id: "app.button.Movies" })}
       />
       <Button
         onClick={changelanguage}
