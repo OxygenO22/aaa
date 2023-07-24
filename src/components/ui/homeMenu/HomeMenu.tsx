@@ -1,34 +1,15 @@
-import { Button } from "../buttons/Button";
-import { RouteButton } from "../buttons/RouteButton";
-import { useIntl } from "react-intl";
-import { FC, useState, useEffect } from "react";
+import { Button } from '../buttons/Button';
+import { RouteButton } from '../buttons/RouteButton';
+import { useIntl } from 'react-intl';
+import { useAppDispatch, useTypedSelector } from '../../hooks/useTypedSelector';
+import { changeLang } from '../../../store/changeLanguage/changeLanguageSlice';
 
-interface IHomeMenu {
-  onLanguageSwitch: (arg: string) => void;
-}
 
-export const HomeMenu: FC<IHomeMenu> = ({ onLanguageSwitch }) => {
-  const [language, setLanguage] = useState('ru');
 
-  /* () => {
-    if (localStorage.getItem('current language') === null) {
-      return "ru";
-    } else {
-      return localStorage.getItem("current language");
-      
-    }
-  } */
+export const HomeMenu = () => {
+  const { languageCode } = useTypedSelector((state) => state.changeLang);
+  const dispatch = useAppDispatch();
   const intl = useIntl();
-
-  useEffect(() => {
-    onLanguageSwitch(language!);
-    localStorage.setItem("current language", JSON.stringify(language));
-  }, [language, onLanguageSwitch]);
-
-  const changelanguage = () => {
-    setLanguage((prev) => (prev === "ru" ? "en" : "ru"));
-    localStorage.setItem("current language", JSON.stringify(language));
-  };
 
   return (
     <>
@@ -49,7 +30,7 @@ export const HomeMenu: FC<IHomeMenu> = ({ onLanguageSwitch }) => {
         name={intl.formatMessage({ id: "app.button.Movies" })}
       />
       <Button
-        onClick={changelanguage}
+        onClick={() => dispatch(changeLang(languageCode))}
         name={intl.formatMessage({ id: "app.button.changeLang" })}
       />
     </>

@@ -10,12 +10,10 @@ import { MusicSinglePage } from "../pages/music/musicSinglePage/MusicSinglePage"
 import { MoviesSinglePage } from "../pages/movies/moviesSinglePage/MoviesSinglePage";
 import { IntlProvider } from "react-intl";
 import TranslationHelpers from "../../translations/translationHelpers";
-import { useState } from "react";
+import { useTypedSelector } from "../hooks/useTypedSelector";
 
 export const Router = () => {
-  const [languageCode, setLanguageCode] = useState(
-    TranslationHelpers.getCurrentLanguageCode()
-  );
+  const { languageCode } = useTypedSelector((state) => state.changeLang);
   const messages = TranslationHelpers.getLanguageMessages(languageCode);
 
   return (
@@ -23,7 +21,7 @@ export const Router = () => {
       <BrowserRouter>
         <Routes>
           <Route
-            element={<Layout onLanguageSwitch={setLanguageCode} />}
+            element={<Layout /* onLanguageSwitch={setLanguageCode} */ />}
             path="/aaa/"
           >
             <Route element={<Home />} index />
