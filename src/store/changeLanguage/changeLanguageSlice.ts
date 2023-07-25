@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import TranslationHelpers from "../../translations/translationHelpers";
 
 const changeLanguageSlice = createSlice({
@@ -7,7 +7,7 @@ const changeLanguageSlice = createSlice({
     languageCode: TranslationHelpers.getCurrentLanguageCode(),
   },
   reducers: {
-    changeLang(state, action) {
+    changeLang(state, action: PayloadAction<string>) {
       state.languageCode === 'ru' ? state.languageCode = 'en' : state.languageCode = 'ru';
     }
   },

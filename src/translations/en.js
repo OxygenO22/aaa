@@ -5,5 +5,5 @@ export const messages_en = {
   "app.button.Popular": "Popular",
   "app.button.Music": "Music",
   "app.button.Movies": "Movies",
-  "app.button.changeLang": "Change Language",
+  "app.button.changeLang": "Ru",
 };

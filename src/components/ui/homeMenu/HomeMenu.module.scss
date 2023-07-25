@@ -1,0 +1,19 @@
+.homeMenu__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.homeMenu__left {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.homeMenu__right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 10%;
+}

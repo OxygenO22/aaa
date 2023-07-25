@@ -35,7 +35,7 @@ export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
       {componentData.map(
         (data: IData) =>
           id === data.to && (
-            <div className={st.singlepage__inner}>
+            <div className={st.singlepage__inner} key={data.id}>
               <div className={st.singlepage__title_wrapper}>
                 <h3 className={st.singlepage__title}>{data.title}</h3>
               </div>
