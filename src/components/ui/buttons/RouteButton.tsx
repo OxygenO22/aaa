@@ -5,6 +5,7 @@ import st from "./RouteButton.module.scss";
 interface IRouteButton {
   path: string;
   name: string;
+  onClick?: any;
 }
 
 export const RouteButton: FC<IRouteButton> = (props) => {
@@ -12,6 +13,7 @@ export const RouteButton: FC<IRouteButton> = (props) => {
     <NavLink
       className={({ isActive }) => (isActive ? st.button_active : st.button)}
       to={props.path}
+      onClick={props.onClick}
     >
       {props.name}
     </NavLink>

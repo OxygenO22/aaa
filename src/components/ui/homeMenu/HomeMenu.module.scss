@@ -4,16 +4,23 @@
   justify-content: center;
   width: 100%;
 }
-
-.homeMenu__left {
+.homeMenu__inner {
   display: flex;
   align-items: center;
-  width: 90%;
+  justify-content: space-between;
+  width: 100%;
 }
 
-.homeMenu__right {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 10%;
+@media (max-width: 770px) {
+  .homeMenu__wrapper {
+    justify-content: flex-end;
+  }
+
+  .homeMenu__inner {
+    display: none;
+  }
+
+  .burger__button {
+    display: flex;
+  }
 }

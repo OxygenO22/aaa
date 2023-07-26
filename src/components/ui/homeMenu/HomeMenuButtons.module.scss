@@ -1,0 +1,13 @@
+.homeMenuButtons__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.homeMenuButtons__inner {
+  display: flex;
+}
+
+.homeMenuButtons__inner_inBurger {
+  display: flex;
+  flex-direction: column;
+}

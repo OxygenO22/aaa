@@ -1,0 +1,34 @@
+.burger__button {
+  display: none;
+  width: 45px;
+  height: 40px;
+  transition: .2s;
+  cursor: pointer;
+  &:hover {
+    width: 50px;
+    height: 45px;
+  }
+}
+
+.burger__button_close {
+  width: 25px;
+  height: 25px;
+  transition: .2s;
+  cursor: pointer;
+  &:hover {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.burger__button_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 770px) {
+  .burger__button {
+    display: flex;
+  }
+}
