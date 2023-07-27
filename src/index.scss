@@ -1,3 +1,5 @@
+@import './constants.module.scss';
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +14,7 @@ body {
   padding: 20px;
 }
 
-@media (max-width: 740px) {
+@media (max-width: $tablet-width) {
   body {
     padding: 10px 0 0 0;
   }
