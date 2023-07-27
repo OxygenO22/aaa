@@ -1,3 +1,5 @@
+@import '../../../constants.module.scss';
+
 .singlepage__wrapper {
   display: flex;
   flex-direction: column;
@@ -57,15 +59,15 @@
 }
 
 .singlepage__content_inner {
-  display: flex;
-  align-items: flex-start;
   width: 100%;
 }
 
 .singlepage__img_wrapper {
-  width: 250px;
+  float: left;
+  width: 240px;
   height: 310px;
   margin-right: 10px;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .singlepage__img {
@@ -75,7 +77,6 @@
 }
 
 .singlepage__text_wrapper {
-  width: calc(100% - 200px);
   height: 100%;
 }
 
@@ -120,4 +121,22 @@
     color: #f5c339;
   }
   
+}
+
+@media (max-width: $phone-width) {
+  .singlepage__content_inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .singlepage__img_wrapper {
+    float: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .singlepage__text_wrapper {
+    width: 100%;
+    text-align: start ;
+  }
 }

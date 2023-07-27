@@ -1,3 +1,5 @@
+@import '../../../constants.module.scss';
+
 .description__wrapper {
   display: flex;
   flex-direction: column;
@@ -5,7 +7,7 @@
   justify-content: center;
   width: 100%;
   padding: 0 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .description__inner {
@@ -19,7 +21,8 @@
 .description__title_wrapper {
   width: 100%;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #f5c339;
 }
 
 .description__title {
@@ -27,6 +30,7 @@
   font-weight: 900;
   line-height: 32px;
   color: #fff;
+  margin-bottom: 10px;
 }
 
 .description__text_wrapper {
@@ -38,4 +42,13 @@
   font-weight: 400;
   line-height: 24px;
   color: #fff;
+}
+
+@media (max-width: $phone-width) {
+  .description__wrapper {
+    margin-bottom: 20px;
+  }
+  .description__text {
+    font-size: 1.2em;
+  }
 }

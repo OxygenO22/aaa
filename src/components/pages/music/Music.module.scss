@@ -1,3 +1,5 @@
+@import '../../../constants.module.scss';
+
 .music__wrapper {
   display: flex;
   flex-direction: column;
@@ -10,8 +12,14 @@
 .music__content {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
+}
+
+@media (max-width: $phone-width) {
+  .music__content {
+    justify-content: center;
+  }
 }

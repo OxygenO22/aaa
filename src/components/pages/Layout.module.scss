@@ -1,3 +1,5 @@
+@import '../../constants.module.scss';
+
 .header__wrapper {
   margin-bottom: 20px;
   width: 100%;
@@ -11,4 +13,10 @@
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
+}
+
+@media (max-width: $phone-width) {
+  .main__wrapper {
+    padding: 10px 0 0 0;
+  }
 }

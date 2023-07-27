@@ -1,3 +1,5 @@
+@import '../../../constants.module.scss';
+
 .cart__wrapper {
   width: 200px;
   height: 300px;
@@ -41,4 +43,11 @@
   font-size: 1.2em;
   font-weight: 400;
   color: #fff;
+}
+
+@media (max-width: $phone-width) {
+  .cart__wrapper {
+    width: 100%;
+    height: 420px;
+  }
 }

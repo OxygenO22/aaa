@@ -1,3 +1,5 @@
+@import '../../../constants.module.scss';
+
 .homeMenu__wrapper {
   display: flex;
   align-items: center;
@@ -11,7 +13,7 @@
   width: 100%;
 }
 
-@media (max-width: 770px) {
+@media (max-width: $tablet-width) {
   .homeMenu__wrapper {
     justify-content: flex-end;
   }
