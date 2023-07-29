@@ -5,6 +5,7 @@ import { Button } from '../buttons/Button';
 import { changeLang } from "../../../store/changeLanguage/changeLanguageSlice";
 import { useIntl } from "react-intl";
 import { useAppDispatch, useTypedSelector } from "../../hooks/useTypedSelector";
+import ThemeBtn from '../buttons/lightDarkButton/ThemeBtn';
 
 export const BurgerMenu = () => {
   const dispatch = useAppDispatch();
@@ -14,11 +15,18 @@ export const BurgerMenu = () => {
     <div className={s.burgerMenu__wrapper}>
       <div className={s.burgerMenu__inner}>
         <div className={s.burgerMenu__buttons}>
-          <HomeMenuButtons inBurger={true} />
-          <Button
-            onClick={() => dispatch(changeLang(languageCode))}
-            name={intl.formatMessage({ id: "app.button.changeLang" })}
-          />
+          <HomeMenuButtons />
+          <div className={s.burgerMenu__options_buttons}>
+            <div className={s.burgerMenu__options_buttons_wrapper}>
+              <Button
+                onClick={() => dispatch(changeLang(languageCode))}
+                name={intl.formatMessage({ id: "app.button.changeLang" })}
+              />
+            </div>
+            <div className={s.burgerMenu__options_buttons_wrapper}>
+              <ThemeBtn />
+            </div>
+          </div>
         </div>
         <div className={s.burgerMenu__burgerButton}>
           <BurgerButton />

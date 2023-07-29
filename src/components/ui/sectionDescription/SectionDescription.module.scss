@@ -26,10 +26,11 @@
 }
 
 .description__title {
-  font-size: 2em;
+  font-size: $largeText-size;
   font-weight: 900;
   line-height: 32px;
-  color: #fff;
+  color: $text-color;
+  transition: color 0.5s ease;
   margin-bottom: 10px;
 }
 
@@ -38,10 +39,11 @@
 }
 
 .description__text {
-  font-size: 1.5em;
+  font-size: $middleText-size;
   font-weight: 400;
   line-height: 24px;
-  color: #fff;
+  color: $text-color;
+  transition: color 0.5s ease;
 }
 
 @media (max-width: $phone-width) {
@@ -49,6 +51,6 @@
     margin-bottom: 20px;
   }
   .description__text {
-    font-size: 1.2em;
+    font-size: $middleMediaText-size;
   }
 }

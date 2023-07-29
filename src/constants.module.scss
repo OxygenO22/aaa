@@ -1,2 +1,40 @@
+@import './components/lightDarkTheme/light-dark-theme';
+
+// sizes
 $phone-width: 480px;
 $tablet-width: 740px;
+
+// colors
+$text-color: var(--textThemeColor1);
+
+//font-sizes
+$mainText-size: 16px;
+$buttonText-size: 1em;
+$largeText-size: 2em;
+$middleText-size: 1.5em;
+$middleMediaText-size: 1.2em;
+$basicText-size: 1.2em;
+
+//buttons style
+@mixin buttonStyle {
+  font-size: $buttonText-size;
+  font-weight: 500;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  background: #f5c339;
+  padding: 10px 20px;
+  margin-right: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(59, 59, 59, 0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    color: #fff;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

@@ -1,17 +1,20 @@
 @import './constants.module.scss';
+@import './components/lightDarkTheme/light-dark-theme';
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: $mainText-size;
   font-family: sans-serif;
 }
 
 body {
-  background: #808080;
-  color: #fff;
+  background: var(--bgThemeColor1);
+  color: $text-color;
   padding: 20px;
+  transition: color 0.5s ease;
+  transition: background 0.5s ease;
 }
 
 @media (max-width: $tablet-width) {

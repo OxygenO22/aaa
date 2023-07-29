@@ -1,0 +1,18 @@
+@import '../../../../constants.module.scss';
+
+.themeButton {
+  @include buttonStyle;
+}
+
+.themeButton__img_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.themeButton__img {
+  width: 150%;
+  height: 150%;
+}

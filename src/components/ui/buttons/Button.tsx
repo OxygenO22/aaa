@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styles from "./Button.module.scss";
+import s from "./Button.module.scss";
 
 interface IButton {
   name: string;
@@ -9,6 +9,6 @@ interface IButton {
 
 export const Button: FC<IButton> = (props) => {
   return (
-    <button onClick={props.onClick} className={styles.button}>{props.name}</button>
+    <button onClick={props.onClick} className={s.button}>{props.name}</button>
   );
 };

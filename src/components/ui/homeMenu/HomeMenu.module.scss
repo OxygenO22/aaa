@@ -13,6 +13,12 @@
   width: 100%;
 }
 
+.homeMenu__option_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 @media (max-width: $tablet-width) {
   .homeMenu__wrapper {
     justify-content: flex-end;

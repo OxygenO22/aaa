@@ -1,14 +1,20 @@
-.button, .button_active {
-  font-size: 1.5em;
+@import '../../../../constants.module.scss';
+
+.button, .button_active, .buttonInBurgerMenu {
+  font-size: $middleText-size;
   text-decoration: none;
-  color: #fff;
+  color: $text-color;
+  transition: color 0.5s ease;
   &:hover {
     color: #f5c339;
   }
   &:last-child {
     margin-right: 0;
   }
+}
 
+.buttonInBurgerMenu {
+  color: #fff;
 }
 
 .button_active {

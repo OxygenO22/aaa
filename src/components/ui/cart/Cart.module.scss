@@ -41,9 +41,10 @@
 }
 
 .cart__title {
-  font-size: 1.2em;
+  font-size: $basicText-size;
   font-weight: 400;
-  color: #fff;
+  color: $text-color;
+  transition: color 0.5s ease;
 }
 
 @media (max-width: $phone-width) {

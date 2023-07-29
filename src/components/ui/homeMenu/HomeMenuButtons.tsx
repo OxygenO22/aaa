@@ -6,12 +6,7 @@ import { useAppDispatch, useTypedSelector } from '../../hooks/useTypedSelector';
 import { openCloseBurgerMenu } from '../../../store/burgerMenu/burgerMenuSlice';
 import { RouteButtonData } from '../buttons/routeButton/RouteButtonData';
 
-interface IHomeMenuButtons {
-  inBurger: boolean;
-}
-
-
-export const HomeMenuButtons: FC<IHomeMenuButtons> = ({inBurger}) => {
+export const HomeMenuButtons = () => {
   const { isBurgerMenuOpen } = useTypedSelector((state) => state.burgerMenu);
   const dispatch = useAppDispatch();
   const intl = useIntl();
@@ -22,7 +17,7 @@ export const HomeMenuButtons: FC<IHomeMenuButtons> = ({inBurger}) => {
     <div className={s.homeMenuButtons__wrapper}>
       <div
         className={
-          inBurger
+          isBurgerMenuOpen
             ? s.homeMenuButtons__inner_inBurger
             : s.homeMenuButtons__inner
         }
@@ -30,7 +25,9 @@ export const HomeMenuButtons: FC<IHomeMenuButtons> = ({inBurger}) => {
         {RouteButtonData.map((data) => (
           <div
             className={
-              inBurger ? s.routeButton__burgerMenu : s.routeButton__homeMenu
+              isBurgerMenuOpen
+                ? s.routeButton__burgerMenu
+                : s.routeButton__homeMenu
             }
             key={data.id}
           >

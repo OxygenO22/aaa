@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { NavLink } from "react-router-dom";
-import st from "./RouteButton.module.scss";
+import s from "./RouteButton.module.scss";
+import { useTypedSelector } from "../../../hooks/useTypedSelector";
 
 interface IRouteButton {
   path: string;
@@ -9,9 +10,12 @@ interface IRouteButton {
 }
 
 export const RouteButton: FC<IRouteButton> = (props) => {
+  const {isBurgerMenuOpen} = useTypedSelector(state => state.burgerMenu);
   return (
     <NavLink
-      className={({ isActive }) => (isActive ? st.button_active : st.button)}
+      className={({ isActive }) =>
+        isActive ? s.button_active : isBurgerMenuOpen ? s.buttonInBurgerMenu : s.button
+      }
       to={props.path}
       onClick={props.onClick}
     >

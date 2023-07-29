@@ -52,7 +52,7 @@
 }
 
 .singlepage__content_movie_title {
-  font-size: 1.4em;
+  font-size: $middleText-size;
   font-weight: 800;
   text-align: center;
   margin-bottom: 10px;
@@ -87,14 +87,14 @@
 }
 
 .singlepage__title {
-  font-size: 1.8em;
+  font-size: $largeText-size;
   font-weight: 800;
   text-align: center;
   margin-bottom: 10px;
 }
 
 .singlepage__text {
-  font-size: 1.13em;
+  font-size: $basicText-size;
   font-weight: 400;
   line-height: 28px;
 }
@@ -112,7 +112,7 @@
 }
 
 .singlepage__link_text {
-  font-size: 1.8em;
+  font-size: $largeText-size;
   font-weight: 600;
   line-height: 32px;
   color: #cfad4e;
