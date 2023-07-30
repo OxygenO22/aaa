@@ -4,9 +4,10 @@ import Thrillers from '../../../pictures/movies/Thrillers.jpg';
 import Romantical from '../../../pictures/movies/Romantical.jpg';
 import Horrors from '../../../pictures/movies/Horrors.jpg';
 import Catastrophes from '../../../pictures/movies/Catastrophies.jpg';
-import ForCouples from '../../../pictures/movies/ForCouples.jpg';
+import ForCompany from '../../../pictures/movies/ForCompany.jpg';
 import ForFamaly from '../../../pictures/movies/ForFamaly.jpg';
 import Comedies from '../../../pictures/movies/Comedies.jpg';
+import ForeignSeries from '../../../pictures/movies/ForeignSeries.jpg';
 import Grendlandia from '../../../pictures/movies/catastrophe/Grendlandia.jpg';
 import SanAndreas from '../../../pictures/movies/catastrophe/San-Andreas.jpg';
 import Wave from '../../../pictures/movies/catastrophe/Wave.jpg';
@@ -17,6 +18,11 @@ import Konteiner from '../../../pictures/movies/russianSeries/Konteiner.jpg';
 import UsualWoman from '../../../pictures/movies/russianSeries/UsualWoman.jpg';
 import SugarLife from '../../../pictures/movies/russianSeries/SugarLife.jpg';
 import Anxious from '../../../pictures/movies/russianSeries/Anxious.jpg';
+import BlackMirror from '../../../pictures/movies/foreignSeries/BlackMirror.jpg';
+import DesperateHousewives from '../../../pictures/movies/foreignSeries/DesperateHousewives.jpg';
+import SexInTheCity from '../../../pictures/movies/foreignSeries/SexInTheCity.jpg';
+import SexLife from '../../../pictures/movies/foreignSeries/SexLife.jpg';
+import WhyWomenKill from '../../../pictures/movies/foreignSeries/WhyWomenKill.jpg';
 
 const MoviesDescriptionData = [
   {id: 1, mainTitle: 'Фильмы',  mainDescription: 'В этом разделе собраны подборки фильмов для настроения.'},
@@ -30,7 +36,7 @@ const MoviesData = [
     {id: 4, movie: 'Чудо (2017)'},
     {id: 5, movie: 'Стюарт Литлл'},
 ]},
-  {id: 2, to: '2', title: '5 молодежных фильмов', text: '', src: `${RussianSeries}`,  movies: [
+  {id: 2, to: '2', title: '5 молодежных фильмов', text: '', src: `${ForCompany}`,  movies: [
     {id: 1, movie: '128 ударов сердца в минуту'},
     {id: 2, movie: 'Папе снова 17'},
     {id: 3, movie: 'Дрянные девчонки'},
@@ -96,12 +102,12 @@ const MoviesData = [
     {id: 4, movie: 'Стражи Галактики'},
     {id: 5, movie: 'Гравитация'},
 ]},
-  {id: 9, to: '9', title: '5 отличных американских сериалов', text: '', src: `${RussianSeries}`, movies: [
-    {id: 1, movie: 'Секс в большом городе'},
-    {id: 2, movie: 'Отчаянные домохозяйки'},
-    {id: 3, movie: 'Почему женшины убивают'},
-    {id: 4, movie: 'Секс / жизнь'},
-    {id: 5, movie: 'Черное зеркало'},
+  {id: 9, to: '9', title: '5 отличных американских сериалов', text: '', src: `${ForeignSeries}`, movies: [
+    {id: 1, movie: 'Секс в большом городе', src: `${SexInTheCity}`, description: ''},
+    {id: 2, movie: 'Отчаянные домохозяйки', src: `${DesperateHousewives}`, description: ''},
+    {id: 3, movie: 'Почему женшины убивают', src: `${WhyWomenKill}`, description: ''},
+    {id: 4, movie: 'Секс / жизнь', src: `${SexLife}`, description: ''},
+    {id: 5, movie: 'Черное зеркало', src: `${BlackMirror}`, description: ''},
 ]},
   {id: 10, to: '10', title: '7 отличных приключенческих фильмов', text: '', src: `${RussianSeries}`, movies: [
     {id: 1, movie: 'Красное уведомление'},
