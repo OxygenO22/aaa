@@ -1,14 +1,28 @@
 @import '../../constants.module.scss';
 
 .header__wrapper {
-  margin-bottom: 20px;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .main__wrapper {
+  display: flex;
   width: 100%;
+}
+
+.main__outlet {
   max-width: 900px;
   min-height: 100vh;
+  padding: 10px;
+  margin-right: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.main__ads {
+  width: calc( 100% - 920px );
+  min-width: 220px;
   padding: 10px;
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
@@ -17,6 +31,18 @@
 
 @media (max-width: $phone-width) {
   .main__wrapper {
+    flex-direction: column;
     padding: 10px 0 0 0;
+  }
+
+  .main__outlet {
+    margin-right: 0;
+    margin-bottom: 20px;
+    min-height: none;
+  }
+
+  .main__ads {
+    width: 100%;
+    min-height: 300px;
   }
 }

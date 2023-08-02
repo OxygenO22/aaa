@@ -51,11 +51,17 @@
   }
 }
 
+.singlepage__content_movie_title_wrapper {
+  width: 100%;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #f5c339;
+}
+
 .singlepage__content_movie_title {
   font-size: $middleText-size;
   font-weight: 800;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .singlepage__content_inner {

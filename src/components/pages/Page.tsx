@@ -5,7 +5,7 @@ import { FC } from 'react';
 
 interface IPage {
   descriptionData: any;
-  cartData: any;
+  cartData?: any;
 }
 
 export const Page: FC<IPage> = ({descriptionData, cartData}) => {
