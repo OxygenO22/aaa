@@ -1,6 +1,6 @@
-@import '../../../constants.module.scss';
+@import '../../constants.module.scss';
 
-.movies__wrapper {
+.page__wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -9,7 +9,7 @@
   height: 100%;
 }
 
-.movies__content {
+.page__content {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -19,7 +19,7 @@
 }
 
 @media (max-width: $phone-width) {
-  .movies__content {
+  .page__content {
     justify-content: center;
   }
 }

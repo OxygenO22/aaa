@@ -7,8 +7,10 @@ interface IButton {
 }
 
 
-export const Button: FC<IButton> = (props) => {
+export const Button: FC<IButton> = ({onClick, name}) => {
   return (
-    <button onClick={props.onClick} className={s.button}>{props.name}</button>
+    <button onClick={onClick} className={s.button}>
+      {name}
+    </button>
   );
 };
