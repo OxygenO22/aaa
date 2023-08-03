@@ -2,7 +2,7 @@
   "name": "project_aaa",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://oxygeno22.github.io/aaa",
+  "homepage": " https://oxygeno22.github.io/aaa/",
   "dependencies": {
     "@fisch0920/use-dark-mode": "^2.4.0",
     "@reduxjs/toolkit": "^1.9.5",
