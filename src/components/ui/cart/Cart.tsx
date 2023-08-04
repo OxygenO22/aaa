@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import st from './Cart.module.scss';
 import { FC } from "react";
+import { LazyImage } from "../lazyImage/LazyImage";
+import ForFamalySM from '../../../pictures/movies/ForFamalySM.jpg';
 
 interface ICart {
   componentData: IData[];
@@ -21,7 +23,8 @@ export const Cart: FC<ICart> = ({ componentData }) => {
         <div className={st.cart__wrapper} key={data.id}>
           <Link className={st.cart__link} to={data.to}>
             <div className={st.cart__picture}>
-              <img className={st.cart__img} src={data.src} alt={data.title} />
+              <LazyImage src={data.src} placeholderSrc={ForFamalySM} alt={data.title}/>
+              {/* <img className={st.cart__img} src={data.src} alt={data.title} /> */}
             </div>
             <div className={st.cart__content}>
               <h3 className={st.cart__title}>{data.title}</h3>

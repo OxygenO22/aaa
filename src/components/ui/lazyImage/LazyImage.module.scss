@@ -1,0 +1,14 @@
+.cart__img_loading {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(10px);
+}
+
+.cart__img_loaded {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(0);
+  transition: filter .3s linear;
+}

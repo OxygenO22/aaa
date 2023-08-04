@@ -1,7 +1,6 @@
 import s from './HomeMenuButtons.module.scss'
 import { RouteButton } from "../buttons/routeButton/RouteButton";
 import { useIntl } from "react-intl";
-import { FC } from 'react'
 import { useAppDispatch, useTypedSelector } from '../../hooks/useTypedSelector';
 import { openCloseBurgerMenu } from '../../../store/burgerMenu/burgerMenuSlice';
 import { RouteButtonData } from '../buttons/routeButton/RouteButtonData';

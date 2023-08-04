@@ -22,10 +22,10 @@ export const Router = () => {
           <Route element={<Layout />} path="/">
             <Route element={<Popular />} index />
             <Route element={<PopularSinglePage />} path="/:id" />
-            <Route element={<Music />} path="music" />
-            <Route element={<MusicSinglePage />} path="music/:id" />
-            <Route element={<Movies />} path="movies" />
-            <Route element={<MoviesSinglePage />} path="movies/:id" />
+            <Route element={<Music />} path="/music" />
+            <Route element={<MusicSinglePage />} path="/music/:id" />
+            <Route element={<Movies />} path="/movies" />
+            <Route element={<MoviesSinglePage />} path="/movies/:id" />
             <Route
               element={
                 <div>
