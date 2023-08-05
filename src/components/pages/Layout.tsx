@@ -16,12 +16,15 @@ export const Layout = () => {
       </header>
 
       <main className={s.main__wrapper}>
-          <div className={s.main__outlet}>
-            <Outlet />
-          </div>
-          <div className={s.main__ads}>
-
-          </div>
+        <div className={s.main__ads_left}>
+          <h1>Реклама</h1>
+        </div>
+        <div className={s.main__outlet}>
+          <Outlet />
+        </div>
+        <div className={s.main__ads_right}>
+          <h1>Реклама</h1>
+        </div>
       </main>
     </>
   );

@@ -24,7 +24,6 @@ export const Cart: FC<ICart> = ({ componentData }) => {
           <Link className={st.cart__link} to={data.to}>
             <div className={st.cart__picture}>
               <LazyImage src={data.src} placeholderSrc={ForFamalySM} alt={data.title}/>
-              {/* <img className={st.cart__img} src={data.src} alt={data.title} /> */}
             </div>
             <div className={st.cart__content}>
               <h3 className={st.cart__title}>{data.title}</h3>
