@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aaa/static/css/main.55b9bdc0.css",
-    "main.js": "/aaa/static/js/main.9d2b1379.js",
+    "main.css": "/aaa/static/css/main.73f93d58.css",
+    "main.js": "/aaa/static/js/main.2fd135c8.js",
     "static/media/Ambient.png": "/aaa/static/media/Ambient.5568be426580abae4313.png",
     "static/media/3.jpg": "/aaa/static/media/3.5121346cfe2ac18839ef.jpg",
     "static/media/4.jpg": "/aaa/static/media/4.94d434557d544a00319d.jpg",
@@ -32,17 +32,18 @@
     "static/media/1.jpg": "/aaa/static/media/1.fbc5a58f755e689782b2.jpg",
     "static/media/Thrillers.jpg": "/aaa/static/media/Thrillers.3961243afbd0d5e607d7.jpg",
     "static/media/5.jpg": "/aaa/static/media/5.e714830e42adcfb80df0.jpg",
+    "static/media/ForFamalySM.jpg": "/aaa/static/media/ForFamalySM.71de3b7cc6975eecb1f9.jpg",
     "static/media/Horrors.jpg": "/aaa/static/media/Horrors.c35d0c1acb5a19774316.jpg",
     "static/media/close.svg": "/aaa/static/media/close.1660ee175dceee2d67dc73a94c5250e1.svg",
     "index.html": "/aaa/index.html",
     "static/media/lightMode.svg": "/aaa/static/media/lightMode.9a01f79cb9ceaea4076b50f992136502.svg",
     "static/media/darkMode.svg": "/aaa/static/media/darkMode.ee503ee8a37b00ed18108764cfabf163.svg",
     "static/media/menu.svg": "/aaa/static/media/menu.62156aa1f3f8ed08b3c42f31823cbef1.svg",
-    "main.55b9bdc0.css.map": "/aaa/static/css/main.55b9bdc0.css.map",
-    "main.9d2b1379.js.map": "/aaa/static/js/main.9d2b1379.js.map"
+    "main.73f93d58.css.map": "/aaa/static/css/main.73f93d58.css.map",
+    "main.2fd135c8.js.map": "/aaa/static/js/main.2fd135c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.55b9bdc0.css",
-    "static/js/main.9d2b1379.js"
+    "static/css/main.73f93d58.css",
+    "static/js/main.2fd135c8.js"
   ]
 }
