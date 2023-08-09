@@ -5,7 +5,7 @@ import Tatan from '../../../pictures/popular/4.jpg';
 import MJHGF from '../../../pictures/popular/5.jpg';
 
 const PopularDescriptionData = [
-  {id: 1, mainTitle: 'Популярное',  mainDescription: 'В этом разделе собраны популярные и интересные новости.'},
+  {id: 1, mainTitle: 'app.PopularDescriptionData.mainTitle',  mainDescription: 'app.PopularDescriptionData.mainDescription'},
 ];
 
 const PopularData = [

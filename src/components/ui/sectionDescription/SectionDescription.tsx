@@ -1,5 +1,6 @@
-import st from './SectionDescription.module.scss';
+import s from './SectionDescription.module.scss';
 import { FC } from 'react';
+import { useIntl } from "react-intl";
 
 interface ISectionDescription {
   componentData: IData[];
@@ -12,16 +13,17 @@ interface IData {
 }
 
 export const SectionDescription: FC<ISectionDescription> = ({componentData}) => {
+  const intl = useIntl();
   return (
-    <div className={st.description__wrapper}>
+    <div className={s.description__wrapper}>
       {componentData.map((data: IData) => (
-        <div className={st.description__inner} key={data.id}>
-          <div className={st.description__title_wrapper}>
-            <h1 className={st.description__title}>{data.mainTitle}</h1>
+        <div className={s.description__inner} key={data.id}>
+          <div className={s.description__title_wrapper}>
+            <h1 className={s.description__title}>{intl.formatMessage({id: `${data.mainTitle}`})}</h1>
           </div>
-          <div className={st.description__text_wrapper}>
-            <p className={st.description__text}>
-              {data.mainDescription}
+          <div className={s.description__text_wrapper}>
+            <p className={s.description__text}>
+              {intl.formatMessage({id: `${data.mainDescription}`})}
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import Ambient from '../../../pictures/music/Ambient.png';
 
 const MusicDescriptionData = [
-  {id: 1, mainTitle: ' Музыка',  mainDescription: 'В этом разделе собраны описания разных жанров музыки, а также их примеры.'},
+  {id: 1, mainTitle: 'app.MusicDescriptionData.mainTitle',  mainDescription: 'app.MusicDescriptionData.mainDescription'},
 ];
 
 const MusicData = [
