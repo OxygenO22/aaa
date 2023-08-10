@@ -2,6 +2,7 @@ import { FC } from 'react';
 import { JumpButton } from '../buttons/jumpButton/JumpButton';
 import st from './SinglePage.module.scss';
 import { Link } from 'react-router-dom';
+import { useIntl } from "react-intl";
 
 interface ISinglePage {
   componentData: IData[];
@@ -27,6 +28,7 @@ interface IMovies {
 }
 
 export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
+  const intl = useIntl();
   return (
     <div className={st.singlepage__wrapper}>
       <div className={st.singlepage__back_wrapper}>
@@ -37,15 +39,19 @@ export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
           id === data.to && (
             <div className={st.singlepage__inner} key={data.id}>
               <div className={st.singlepage__title_wrapper}>
-                <h3 className={st.singlepage__title}>{data.title}</h3>
+                <h3 className={st.singlepage__title}>
+                  {intl.formatMessage({ id: `${data.title}` })}
+                </h3>
               </div>
               <div className={st.singlepage__content}>
                 {data.movies &&
                   data.movies.map((data) => (
                     <div className={st.singlepage__content_movie} key={data.id}>
-                      <div className={st.singlepage__content_movie_title_wrapper}>
+                      <div
+                        className={st.singlepage__content_movie_title_wrapper}
+                      >
                         <h4 className={st.singlepage__content_movie_title}>
-                          {data.movie}
+                          {intl.formatMessage({ id: `${data.movie}` })}
                         </h4>
                       </div>
                       <div className={st.singlepage__content_inner}>
@@ -59,7 +65,9 @@ export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
                         <div className={st.singlepage__text_wrapper}>
                           {data.description ? (
                             <p className={st.singlepage__text}>
-                              {data.description}
+                              {intl.formatMessage({
+                                id: `${data.description}`,
+                              })}
                             </p>
                           ) : (
                             <p className={st.singlepage__text}>
@@ -85,7 +93,11 @@ export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
                     </div>
                   ))}
                 {data.text && (
-                  <p className={st.singlepage__text}>{data.text}</p>
+                  <p className={st.singlepage__text}>
+                    {intl.formatMessage({
+                      id: `${data.text}`,
+                    })}
+                  </p>
                 )}
               </div>
               <div className={st.singlepage__link_wrapper}>

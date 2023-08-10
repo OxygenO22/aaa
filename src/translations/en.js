@@ -1,7 +1,7 @@
 
 export const messages_en = { 
   "app.button.Home": "Home",
-  "app.button.Popular": "Popular",
+  "app.button.Popular": "Interesting",
   "app.button.Music": "Music",
   "app.button.Movies": "Movies",
   "app.button.changeLang": "Ru",
