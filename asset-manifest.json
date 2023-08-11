@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/aaa/static/css/main.73f93d58.css",
-    "main.js": "/aaa/static/js/main.2fd135c8.js",
+    "main.js": "/aaa/static/js/main.731c3a5b.js",
     "static/media/Ambient.png": "/aaa/static/media/Ambient.5568be426580abae4313.png",
     "static/media/3.jpg": "/aaa/static/media/3.5121346cfe2ac18839ef.jpg",
     "static/media/4.jpg": "/aaa/static/media/4.94d434557d544a00319d.jpg",
     "static/media/BlackMirror.jpg": "/aaa/static/media/BlackMirror.6b939ef8ab68e12063e0.jpg",
+    "static/media/CallCenter.jpg": "/aaa/static/media/CallCenter.87f34afea046128632ab.jpg",
     "static/media/Anxious.jpg": "/aaa/static/media/Anxious.f56c9a9d47efb65a9e45.jpg",
     "static/media/RussianSeries.jpg": "/aaa/static/media/RussianSeries.bd75ec0708fe50d65c38.jpg",
     "static/media/Monstro.jpg": "/aaa/static/media/Monstro.be22fd8c72c87dda76ea.jpg",
+    "static/media/Pirogova.jpg": "/aaa/static/media/Pirogova.6aaf9eddea3b4d29fe97.jpg",
     "static/media/San-Andreas.jpg": "/aaa/static/media/San-Andreas.7b947eaa13d91f3ad392.jpg",
     "static/media/Fault.jpg": "/aaa/static/media/Fault.a9a3624ff5b0b6a799e1.jpg",
+    "static/media/Kitchen.jpg": "/aaa/static/media/Kitchen.a3c4a03b9ab01d1bcd96.jpg",
     "static/media/SexLife.jpg": "/aaa/static/media/SexLife.ca5cb0b6ddcef4ec4220.jpg",
     "static/media/ForeignSeries.jpg": "/aaa/static/media/ForeignSeries.ae7723b4d99c5a0e6b85.jpg",
     "static/media/DesperateHousewives.jpg": "/aaa/static/media/DesperateHousewives.ad2623baff956fcac4dd.jpg",
     "static/media/Wave.jpg": "/aaa/static/media/Wave.c878f7963d52c33a7ee4.jpg",
     "static/media/SugarLife.jpg": "/aaa/static/media/SugarLife.bd3f7f5329cafa9c5548.jpg",
     "static/media/UsualWoman.jpg": "/aaa/static/media/UsualWoman.0ef75298388d1c1416ff.jpg",
+    "static/media/FamilyWar.jpg": "/aaa/static/media/FamilyWar.e164408ee2b2e21982d9.jpg",
     "static/media/Grendlandia.jpg": "/aaa/static/media/Grendlandia.2c51b59d16eb8ac5f491.jpg",
     "static/media/WhyWomenKill.jpg": "/aaa/static/media/WhyWomenKill.1f57ab9e33c72563ab4c.jpg",
     "static/media/SexInTheCity.jpg": "/aaa/static/media/SexInTheCity.4881e434184befc1cb74.jpg",
@@ -28,22 +32,22 @@
     "static/media/Brigada.jpg": "/aaa/static/media/Brigada.45443dd3302477b91419.jpg",
     "static/media/Logo.png": "/aaa/static/media/Logo.aee0c03311ee3d03ad55.png",
     "static/media/Romantical.jpg": "/aaa/static/media/Romantical.e55b8922d4b8a085f8ac.jpg",
+    "static/media/Bivshie.jpg": "/aaa/static/media/Bivshie.b1aec90117128a9528ae.jpg",
     "static/media/Comedies.jpg": "/aaa/static/media/Comedies.f2c9b17e7fec4471c406.jpg",
     "static/media/1.jpg": "/aaa/static/media/1.fbc5a58f755e689782b2.jpg",
     "static/media/Thrillers.jpg": "/aaa/static/media/Thrillers.3961243afbd0d5e607d7.jpg",
     "static/media/5.jpg": "/aaa/static/media/5.e714830e42adcfb80df0.jpg",
-    "static/media/ForFamalySM.jpg": "/aaa/static/media/ForFamalySM.71de3b7cc6975eecb1f9.jpg",
-    "static/media/Horrors.jpg": "/aaa/static/media/Horrors.c35d0c1acb5a19774316.jpg",
+    "static/media/2012.jpg": "/aaa/static/media/2012.5c3c64bb7e69dfd36ac5.jpg",
     "static/media/close.svg": "/aaa/static/media/close.1660ee175dceee2d67dc73a94c5250e1.svg",
     "index.html": "/aaa/index.html",
     "static/media/lightMode.svg": "/aaa/static/media/lightMode.9a01f79cb9ceaea4076b50f992136502.svg",
     "static/media/darkMode.svg": "/aaa/static/media/darkMode.ee503ee8a37b00ed18108764cfabf163.svg",
     "static/media/menu.svg": "/aaa/static/media/menu.62156aa1f3f8ed08b3c42f31823cbef1.svg",
     "main.73f93d58.css.map": "/aaa/static/css/main.73f93d58.css.map",
-    "main.2fd135c8.js.map": "/aaa/static/js/main.2fd135c8.js.map"
+    "main.731c3a5b.js.map": "/aaa/static/js/main.731c3a5b.js.map"
   },
   "entrypoints": [
     "static/css/main.73f93d58.css",
-    "static/js/main.2fd135c8.js"
+    "static/js/main.731c3a5b.js"
   ]
 }
