@@ -2,9 +2,8 @@ import { Link } from "react-router-dom";
 import st from './Cart.module.scss';
 import { FC } from "react";
 import { LazyImage } from "../lazyImage/LazyImage";
-import ForFamalySM from '../../../pictures/movies/ForFamalySM.jpg';
+import Placeholder from '../../../pictures/Logo.png';
 import { useIntl } from "react-intl";
-
 interface ICart {
   componentData: IData[];
 }
@@ -27,7 +26,7 @@ export const Cart: FC<ICart> = ({ componentData }) => {
             <div className={st.cart__picture}>
               <LazyImage
                 src={data.src}
-                placeholderSrc={ForFamalySM}
+                placeholderSrc={Placeholder}
                 alt={intl.formatMessage({ id: `${data.title}` })}
               />
             </div>
