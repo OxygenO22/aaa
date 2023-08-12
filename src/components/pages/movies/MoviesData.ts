@@ -8,6 +8,13 @@ import ForCompany from '../../../pictures/movies/ForCompany.jpg';
 import ForFamaly from '../../../pictures/movies/ForFamaly.jpg';
 import Comedies from '../../../pictures/movies/Comedies.jpg';
 import ForeignSeries from '../../../pictures/movies/ForeignSeries.jpg';
+
+import TheParentTrap from '../../../pictures/movies/withKids/TheParentTrap.webp';
+import Matilda from '../../../pictures/movies/withKids/Matilda.webp';
+import Doubtfire from '../../../pictures/movies/withKids/Doubtfire.webp';
+import Wonder from '../../../pictures/movies/withKids/Wonder.webp';
+import StuartLittle from '../../../pictures/movies/withKids/StuartLittle.webp';
+
 import Grendlandia from '../../../pictures/movies/catastrophe/Grendlandia.jpg';
 import twoThousandTwelve from '../../../pictures/movies/catastrophe/2012.jpg';
 import SanAndreas from '../../../pictures/movies/catastrophe/San-Andreas.jpg';
@@ -36,11 +43,11 @@ const MoviesDescriptionData = [
 
 const MoviesData = [
   {id: 1, to: '1', title: 'app.MoviesDescriptionData.withKids', text: '', src: `${ForFamaly}`, movies: [
-    {id: 1, movie: 'Ловушка для родителей'},
-    {id: 2, movie: 'Матильда (1996)'},
-    {id: 3, movie: 'Миссис Даутфайр'},
-    {id: 4, movie: 'Чудо (2017)'},
-    {id: 5, movie: 'Стюарт Литлл'},
+    {id: 1, movie: 'app.MoviesData.TheParentTrap_Title', src: `${TheParentTrap}`, description: 'app.MoviesData.TheParentTrap'},
+    {id: 2, movie: 'app.MoviesData.Matilda_Title', src: `${Matilda}`, description: 'app.MoviesData.Matilda'},
+    {id: 3, movie: 'app.MoviesData.Doubtfire_Title', src: `${Doubtfire}`, description: 'app.MoviesData.Doubtfire'},
+    {id: 4, movie: 'app.MoviesData.Wonder_Title', src: `${Wonder}`, description: 'app.MoviesData.Wonder'},
+    {id: 5, movie: 'app.MoviesData.StuartLittle_Title', src: `${StuartLittle}`, description: 'app.MoviesData.StuartLittle'},
 ]},
   {id: 2, to: '2', title: 'app.MoviesDescriptionData.youthFilms', text: '', src: `${ForCompany}`,  movies: [
     {id: 1, movie: '128 ударов сердца в минуту'},

@@ -20,7 +20,28 @@ export const messages_en = {
   "app.MoviesDescriptionData.americanSeries": "5 excellent american series",
   "app.MoviesDescriptionData.adventureFilms": "7 excellent adventure films",
 
-  /* Russian series description */
+  /* Movies for watching with kids */
+  "app.MoviesData.TheParentTrap_Title": "The Parent Trap (1998)",
+
+  "app.MoviesData.TheParentTrap": "Young Holly Parker lives in sunny California with the most wonderful father in the world, and her age Annie James lives in foggy London with a wonderful loving mother. The first dreams of a mother, without whom it is very difficult for her, and the second wants so badly that she had a dad. When the girls meet by chance at summer camp, they have something to share with each other. But in addition to the common sorrows between Holly and Annie, there is another similarity: they are ... twins! Their parents divorced many years ago, and the girls decide to make amends for this tragic mistake. The sisters begin to act: the American returns to London, and the Englishwoman returns to America. And unsuspecting parents easily fall into the trap...",
+
+  "app.MoviesData.Matilda_Title": "Matilda (1996)",
+
+  "app.MoviesData.Matilda": "Matilda is a very unusual girl. Well, judge for yourself - multiplying huge numbers in your head, moving objects with your eyes and doing a lot of other supernatural things - what do you think is normal? But her parents are indifferent to her - not only are they not amazed by Matilda's abilities, they are not even interested in how their daughter lives ...",
+
+  "app.MoviesData.Doubtfire_Title": "Mrs. Doubtfire (1993)",
+
+  "app.MoviesData.Doubtfire": "Trouble rains down on Daniel Hillard, as if from a cornucopia: he loses his job, his wife leaves him and after the divorce he is allowed to see the children only once a week! But Daniel finds a way out - he changes into a woman's dress and becomes Mrs. Doubtfire - an elderly woman. He is hired by his wife as a housekeeper, and now he can see his children every day. The consequences, of course, will be the most unpredictable.",
+
+  "app.MoviesData.Wonder_Title": "Wonder (2017)",
+
+  "app.MoviesData.Wonder": "On the one hand, the boy August Pullman is the same as other boys of his age - he likes to go to friends' birthdays, play computer games, is a fan of Star Wars, plays with his dog, quarrels and puts up with his older sister. On the other hand, he is not at all like other boys of his age. Firstly, August never went to a regular school - from the first grade, his mother studied at home with him. Secondly, August underwent 27 surgeries. Due to a very rare but occasionally occurring genetic error, Augustus has no face. This is the kind of boy who should go to school. For the first time. To ordinary children.",
+
+  "app.MoviesData.StuartLittle_Title": "Stuart Little (1999)",
+
+  "app.MoviesData.StuartLittle": "When George asked his parents to adopt a little brother for him, the Littles took his request too literally. And one fine day, a tiny little mouse Stuart appeared in their big house, who is dressed in a fashionable suit and can talk. From this moment, the unpredictable, funny, and sometimes dangerous adventures of Stuart Little begin. All the cats in the area are hunting for the baby, he is kidnapped by scammers, and in order to return home, the new family member will have to become a real hero.",
+
+  /* Russian series  */
   "app.MoviesData.Konteiner": "Contrary to common practice, the surrogate mother Sasha moves into the house of her customers and finds herself in a world completely alien to her - the mansion of a wealthy official Vadim and his wife Marina. Sasha is a “container” for them, a new toy. However, what at the beginning seemed to be caring for the unborn child soon turns into trials for each of the tenants.",
 
   "app.MoviesData.Anxious": "Realizing that something needs to be changed in life, a simple girl Sasha Gvozdikova leaves Yekaterinburg for Moscow, leaving a boring job and a married lover. She writes stories and dreams of getting them published, but she overestimates her writing talent. Together with Sasha, two of her best friends from Yekaterinburg, Katya and Alena, live in Moscow. The plot of the story revolves around three heroines who are trying to find themselves in the life of the capital and in relationships.",
@@ -41,7 +62,7 @@ export const messages_en = {
 
   "app.MoviesData.FamilyWar": "Misha and Dima have been friends since childhood. A common business, neighboring houses without a fence, friendship between families - an idyll that, as it seemed, could not be destroyed. The upcoming wedding of the children was to strengthen the long-term union. However, during a family celebration, secrets are suddenly revealed that turn best friends into sworn enemies in an instant.",
 
-  /* Movies about space description */
+  /* Movies about space */
   "app.MoviesData.Interstellar": "The action takes the viewer to the near future, when space has almost been mastered by humanity that has stepped forward, but the resources of the Earth have been depleted. Due to the growing concentration of nitrogen on our planet, drought reigns and, as a result, a global food crisis. Employees of a secret NASA laboratory discover a wormhole in the orbit of Saturn, which allows them to overcome the space-time barrier and move to another galaxy in the shortest possible time. Perhaps this is a chance for salvation for all mankind. As part of the Lazar program, the first expedition is being made, as a result of which three planets most suitable for life are found on the other side of the so-called wormhole. Now it's time for the second expedition: Professor Brand and his colleagues will risk their own lives to conduct research in conditions where one hour is equal to several years on Earth, and find a way to resettle earthlings to another planet. Can scientists save humanity...",
 
   "app.MoviesData.Passengers": "A spacecraft with 5,000 passengers on board, immersed in artificial sleep for the duration of the flight, is heading for the planet that will become their new home. Everything goes according to plan, but due to a system failure, two passengers suddenly wake up and realize that it is 90 years to the final destination of the journey, and they are destined to spend the rest of their lives together in the luxurious interiors of a ship equipped with the latest technology. Gradually, Jim and Aurora begin to be irresistibly drawn to each other, but the ship gets into trouble, and now in their hands is the life and fate of all the inhabitants of the ship.",
