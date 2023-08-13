@@ -15,6 +15,9 @@ import Doubtfire from '../../../pictures/movies/withKids/Doubtfire.webp';
 import Wonder from '../../../pictures/movies/withKids/Wonder.webp';
 import StuartLittle from '../../../pictures/movies/withKids/StuartLittle.webp';
 
+import WeAreYourFriends from '../../../pictures/movies/yoursFilms/WeAreYourFriends.webp';
+import SeventinthAgain from '../../../pictures/movies/yoursFilms/SeventinthAgain.webp';
+
 import Grendlandia from '../../../pictures/movies/catastrophe/Grendlandia.jpg';
 import twoThousandTwelve from '../../../pictures/movies/catastrophe/2012.jpg';
 import SanAndreas from '../../../pictures/movies/catastrophe/San-Andreas.jpg';
@@ -50,11 +53,11 @@ const MoviesData = [
     {id: 5, movie: 'app.MoviesData.StuartLittle_Title', src: `${StuartLittle}`, description: 'app.MoviesData.StuartLittle'},
 ]},
   {id: 2, to: '2', title: 'app.MoviesDescriptionData.youthFilms', text: '', src: `${ForCompany}`,  movies: [
-    {id: 1, movie: '128 ударов сердца в минуту'},
-    {id: 2, movie: 'Папе снова 17'},
-    {id: 3, movie: 'Дрянные девчонки'},
-    {id: 4, movie: 'Просто друзья'},
-    {id: 5, movie: 'Цыпочка'},
+    {id: 1, movie: 'app.MoviesData.WeAreYourFriends_Title', src: `${WeAreYourFriends}`, description: 'app.MoviesData.WeAreYourFriends'},
+    {id: 2, movie: 'app.MoviesData.SeventinthAgain_Title', src: `${SeventinthAgain}`, description: 'app.MoviesData.SeventinthAgain'},
+    {id: 3, movie: 'Дрянные девчонки', src: `${TheParentTrap}`, description: 'app.MoviesData.TheParentTrap'},
+    {id: 4, movie: 'Просто друзья', src: `${TheParentTrap}`, description: 'app.MoviesData.TheParentTrap'},
+    {id: 5, movie: 'Цыпочка', src: `${TheParentTrap}`, description: 'app.MoviesData.TheParentTrap'},
 ]},
   {id: 3, to: '3', title: 'app.MoviesDescriptionData.romanticFilms', text: '', src: `${Romantical}`, movies: [
     {id: 1, movie: 'Отпуск по обмену'},

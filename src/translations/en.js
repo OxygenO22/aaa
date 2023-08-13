@@ -41,6 +41,15 @@ export const messages_en = {
 
   "app.MoviesData.StuartLittle": "When George asked his parents to adopt a little brother for him, the Littles took his request too literally. And one fine day, a tiny little mouse Stuart appeared in their big house, who is dressed in a fashionable suit and can talk. From this moment, the unpredictable, funny, and sometimes dangerous adventures of Stuart Little begin. All the cats in the area are hunting for the baby, he is kidnapped by scammers, and in order to return home, the new family member will have to become a real hero.",
 
+  /* Movies for youth films */
+  "app.MoviesData.WeAreYourFriends_Title": "We Are Your Friends",
+
+  "app.MoviesData.WeAreYourFriends": "Los Angeles, California is the world of endless possibilities during the day and unreal Hollywood parties at night. Both of these worlds seeks to conquer a young DJ named Cole, who is tirelessly working on his penetration track, which should blow up the whole world. He is noticed and taken under the wing, the famous DJ James, but everything becomes extremely confusing when Cole falls in love with James's young girlfriend. Soon in front of Cole is a difficult choice between love, fidelity, old friends and the future that he dreams of.",
+
+  "app.MoviesData.SeventinthAgain_Title": "17 Again",
+
+  "app.MoviesData.SeventinthAgain": "Would you like to start life first? The father of two children Mike O'Donnell would like to. And suddenly he falls out a magical chance to return to his native school Haden Hai. Now Mike is a star of the basketball team, the dream of girls and a classmate of his own offspring, which turned from a negligent dad in a great friend.",
+
   /* Russian series  */
   "app.MoviesData.Konteiner": "Contrary to common practice, the surrogate mother Sasha moves into the house of her customers and finds herself in a world completely alien to her - the mansion of a wealthy official Vadim and his wife Marina. Sasha is a “container” for them, a new toy. However, what at the beginning seemed to be caring for the unborn child soon turns into trials for each of the tenants.",
 
