@@ -50,6 +50,10 @@ export const messages_en = {
 
   "app.MoviesData.SeventinthAgain": "Would you like to start life first? The father of two children Mike O'Donnell would like to. And suddenly he falls out a magical chance to return to his native school Haden Hai. Now Mike is a star of the basketball team, the dream of girls and a classmate of his own offspring, which turned from a negligent dad in a great friend.",
 
+  "app.MoviesData.MeanGirls_Title": "Mean Girls",
+
+  "app.MoviesData.MeanGirls": "Growing up in Africa with zoologist parents, Cady Heron thought she knew all about the survival of the fittest rule. But the law of the jungle is completely redefined when a homely 15-year-old girl enters a regular school for the first time and falls in love with the ex-boyfriend of the meanest girl in school.",
+
   /* Russian series  */
   "app.MoviesData.Konteiner": "Contrary to common practice, the surrogate mother Sasha moves into the house of her customers and finds herself in a world completely alien to her - the mansion of a wealthy official Vadim and his wife Marina. Sasha is a “container” for them, a new toy. However, what at the beginning seemed to be caring for the unborn child soon turns into trials for each of the tenants.",
 

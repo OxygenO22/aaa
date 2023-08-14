@@ -17,6 +17,7 @@ import StuartLittle from '../../../pictures/movies/withKids/StuartLittle.webp';
 
 import WeAreYourFriends from '../../../pictures/movies/yoursFilms/WeAreYourFriends.webp';
 import SeventinthAgain from '../../../pictures/movies/yoursFilms/SeventinthAgain.webp';
+import MeanGirls from '../../../pictures/movies/yoursFilms/MeanGirls.webp';
 
 import Grendlandia from '../../../pictures/movies/catastrophe/Grendlandia.jpg';
 import twoThousandTwelve from '../../../pictures/movies/catastrophe/2012.jpg';
@@ -55,7 +56,7 @@ const MoviesData = [
   {id: 2, to: '2', title: 'app.MoviesDescriptionData.youthFilms', text: '', src: `${ForCompany}`,  movies: [
     {id: 1, movie: 'app.MoviesData.WeAreYourFriends_Title', src: `${WeAreYourFriends}`, description: 'app.MoviesData.WeAreYourFriends'},
     {id: 2, movie: 'app.MoviesData.SeventinthAgain_Title', src: `${SeventinthAgain}`, description: 'app.MoviesData.SeventinthAgain'},
-    {id: 3, movie: 'Дрянные девчонки', src: `${TheParentTrap}`, description: 'app.MoviesData.TheParentTrap'},
+    {id: 3, movie: 'app.MoviesData.MeanGirls_Title', src: `${MeanGirls}`, description: 'app.MoviesData.MeanGirls'},
     {id: 4, movie: 'Просто друзья', src: `${TheParentTrap}`, description: 'app.MoviesData.TheParentTrap'},
     {id: 5, movie: 'Цыпочка', src: `${TheParentTrap}`, description: 'app.MoviesData.TheParentTrap'},
 ]},
