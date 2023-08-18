@@ -18,6 +18,14 @@ import StuartLittle from '../../../pictures/movies/withKids/StuartLittle.webp';
 import WeAreYourFriends from '../../../pictures/movies/yoursFilms/WeAreYourFriends.webp';
 import SeventinthAgain from '../../../pictures/movies/yoursFilms/SeventinthAgain.webp';
 import MeanGirls from '../../../pictures/movies/yoursFilms/MeanGirls.webp';
+import JustFriends from '../../../pictures/movies/yoursFilms/JustFriends.webp';
+import TheHotChick from '../../../pictures/movies/yoursFilms/TheHotChick.webp';
+
+import JustGoWithIt from '../../../pictures/movies/Comedies/JustGoWithIt.webp';
+import WhyHim from '../../../pictures/movies/Comedies/WhyHim.webp';
+import WeAreTheMillers from '../../../pictures/movies/Comedies/WeAreTheMillers.webp';
+import IFeelPretty from '../../../pictures/movies/Comedies/IFeelPretty.webp';
+import CrazyStupidLove from '../../../pictures/movies/Comedies/CrazyStupidLove.webp';
 
 import Grendlandia from '../../../pictures/movies/catastrophe/Grendlandia.jpg';
 import twoThousandTwelve from '../../../pictures/movies/catastrophe/2012.jpg';
@@ -57,8 +65,8 @@ const MoviesData = [
     {id: 1, movie: 'app.MoviesData.WeAreYourFriends_Title', src: `${WeAreYourFriends}`, description: 'app.MoviesData.WeAreYourFriends'},
     {id: 2, movie: 'app.MoviesData.SeventinthAgain_Title', src: `${SeventinthAgain}`, description: 'app.MoviesData.SeventinthAgain'},
     {id: 3, movie: 'app.MoviesData.MeanGirls_Title', src: `${MeanGirls}`, description: 'app.MoviesData.MeanGirls'},
-    {id: 4, movie: 'Просто друзья', src: `${TheParentTrap}`, description: 'app.MoviesData.TheParentTrap'},
-    {id: 5, movie: 'Цыпочка', src: `${TheParentTrap}`, description: 'app.MoviesData.TheParentTrap'},
+    {id: 4, movie: 'app.MoviesData.JustFriends_Title', src: `${JustFriends}`, description: 'app.MoviesData.JustFriends'},
+    {id: 5, movie: 'app.MoviesData.TheHotChick_Title', src: `${TheHotChick}`, description: 'app.MoviesData.TheHotChick'},
 ]},
   {id: 3, to: '3', title: 'app.MoviesDescriptionData.romanticFilms', text: '', src: `${Romantical}`, movies: [
     {id: 1, movie: 'Отпуск по обмену'},
@@ -80,17 +88,17 @@ const MoviesData = [
     {id: 10, movie: 'Война семей', src: `${FamilyWar}`, description: 'app.MoviesData.FamilyWar'},
 ]},
   {id: 5, to: '5', title: 'app.MoviesDescriptionData.comedies', text: '', src: `${Comedies}`, movies: [
-    {id: 1, movie: 'Притворись моей женой'},
-    {id: 2, movie: 'Почему он'},
-    {id: 3, movie: 'Мы Миллеры'},
-    {id: 4, movie: 'Красотка на всю голову'},
-    {id: 5, movie: 'Эта дурацкая любовь'},
-    {id: 6, movie: 'Чего ждать,когда ждёшь ребенка'},
-    {id: 7, movie: 'Как отделаться от парня за 10 дней'},
-    {id: 8, movie: 'Голая правда'},
-    {id: 9, movie: 'Безбрачная неделя'},
-    {id: 10, movie: 'Незваные гости (2005)'},
-    {id: 11, movie: 'Хочу,как ты'},
+    {id: 1, movie: 'app.MoviesData.JustGoWithIt_Title', src: `${JustGoWithIt}`, description: 'app.MoviesData.JustGoWithIt'},
+    {id: 2, movie: 'app.MoviesData.WhyHim_Title', src: `${WhyHim}`, description: 'app.MoviesData.WhyHim'},
+    {id: 3, movie: 'app.MoviesData.WeAreTheMillers_Title', src: `${WeAreTheMillers}`, description: 'app.MoviesData.WeAreTheMillers'},
+    {id: 4, movie: 'app.MoviesData.IFeelPretty_Title', src: `${IFeelPretty}`, description: 'app.MoviesData.IFeelPretty'},
+    {id: 5, movie: 'app.MoviesData.CrazyStupidLove_Title', src: `${CrazyStupidLove}`, description: 'app.MoviesData.CrazyStupidLove'},
+    {id: 6, movie: 'Чего ждать,когда ждёшь ребенка', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
+    {id: 7, movie: 'Как отделаться от парня за 10 дней', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
+    {id: 8, movie: 'Голая правда', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
+    {id: 9, movie: 'Безбрачная неделя', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
+    {id: 10, movie: 'Незваные гости (2005)', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
+    {id: 11, movie: 'Хочу,как ты', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
 ]},
   {id: 6, to: '6', title: 'app.MoviesDescriptionData.thrillers', text: '', src: `${Thrillers}`, movies: [
     {id: 1, movie: 'Вне себя'},

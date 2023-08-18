@@ -107,7 +107,11 @@ export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
                     to={data.link}
                     target="_blank"
                   >
-                    <p className={st.singlepage__link_text}>{data.linkName}</p>
+                    <p className={st.singlepage__link_text}>
+                      {intl.formatMessage({
+                        id: `${data.linkName}`,
+                      })}
+                    </p>
                   </Link>
                 )}
               </div>

@@ -7,6 +7,12 @@ export const messages_en = {
   "app.button.changeLang": "Ru",
   "app.button.back": "Back",
 
+  /* Music page */
+  "app.MusicData.Title": "Ambient - music for relaxation and pleasure.",
+  "app.MusicData.Text": "Ambient is a genre in which more attention is paid to the actual sound than the musical structure, the purpose of which is to form a certain atmosphere or mood using ordinary and non -traditional instruments, sound clips, and sometimes vocals. You can sing in an embusy music, although most of the embosse is instrumental. The embossed music is not limited to any specific mood or sound, but rather accepts the idea that any mood or atmosphere can be achieved with the help of only sound, without relying on the musical composition or structure of the song. The embossed was included in a large number of various existing musical genres, thanks to its extremely compatible use and versatility.",
+  "app.MusicData.linkName": "Ambient is an example of a relaxing selection in the video on YouTube",
+
+
   "app.MoviesDescriptionData.mainTitle": "Movies",
   "app.MoviesDescriptionData.mainDescription": "This section contains selections of films to suit your mood.",
   "app.MoviesDescriptionData.withKids": "5 movies to watch with kids",
@@ -54,6 +60,14 @@ export const messages_en = {
 
   "app.MoviesData.MeanGirls": "Growing up in Africa with zoologist parents, Cady Heron thought she knew all about the survival of the fittest rule. But the law of the jungle is completely redefined when a homely 15-year-old girl enters a regular school for the first time and falls in love with the ex-boyfriend of the meanest girl in school.",
 
+  "app.MoviesData.JustFriends_Title": "Just Friends",
+
+  "app.MoviesData.JustFriends": "Los Angeles music producer Chris Brander has everything you could want - money, good looks and a great job. However, things didn't always go so smoothly in Chris's life. At school, he was very overweight and too shy for that. The only bright memory he retained was of his close friend Jamie, with whom he was secretly and hopelessly in love. And now, after ten years, having become an irresistible heartthrob and a successful producer, on the way to Paris, Chris is forced to stop in his native New Jersey. At a local bar, Chris accidentally meets Jamie and realizes that he still loves her. However, winning the heart of your girlfriend is even more difficult than 10 years ago.",
+
+  "app.MoviesData.TheHotChick_Title": "The Hot Chick",
+
+  "app.MoviesData.TheHotChick": "Popular but obnoxious high school student Jessica wakes up one morning in the body of a 30-year-old man with not the most attractive appearance. The girl goes in search of her body, and this adventure helps her see herself from the side and understand how superficial and narrow-minded she was.",
+
   /* Russian series  */
   "app.MoviesData.Konteiner": "Contrary to common practice, the surrogate mother Sasha moves into the house of her customers and finds herself in a world completely alien to her - the mansion of a wealthy official Vadim and his wife Marina. Sasha is a “container” for them, a new toy. However, what at the beginning seemed to be caring for the unborn child soon turns into trials for each of the tenants.",
 
@@ -74,6 +88,27 @@ export const messages_en = {
   "app.MoviesData.CallCenter": "Moscow, office skyscraper. On the 12th floor there is a call center of the online store  «Boutique for Adults». One morning, as usual, coming to work, twelve employees suddenly find out that there is a bomb in the room with a timer set for 8 hours, and the exit is closed. The voices of unknown people, who introduced themselves as Dad and Mom, threaten to blow everyone up at any moment if the «children» do not behave well and obey. While the countdown is going on, the comrades in misfortune will have to experience the absolute power of invisible sadists and learn about each other's life that they did not even suspect.",
 
   "app.MoviesData.FamilyWar": "Misha and Dima have been friends since childhood. A common business, neighboring houses without a fence, friendship between families - an idyll that, as it seemed, could not be destroyed. The upcoming wedding of the children was to strengthen the long-term union. However, during a family celebration, secrets are suddenly revealed that turn best friends into sworn enemies in an instant.",
+
+  /* Comedies */
+  "app.MoviesData.JustGoWithIt_Title": "Just Go with It",
+
+  "app.MoviesData.JustGoWithIt": "The protagonist Danny met Palmer and, to impress, spoke about his non-existent wife and the hardships of family life. Instead of the expected sympathy, Palmer wants to meet his wife, and Danny urgently needs to figure out how to get out of such an interesting situation. Luckily, he has a colleague, Katherine, who is charming and has children who will play the role of his family for a while.",
+
+  "app.MoviesData.WhyHim_Title": "Why Him?",
+
+  "app.MoviesData.WhyHim": "A man named Ned passionately and sincerely loves his heiress, Stephanie. But there comes a time when the grown-up girl leaves her parents' house and goes to study at Stanford. After some time, Ned accidentally learns that a certain young man lives with his daughter. Parents hurriedly leave for Stephanie, trying to get acquainted with her chosen one and understand whether this young man is suitable for their daughter. Beloved Stephanie Laird absolutely does not like Ned and his wife. The guy has already managed to earn a fortune by doing business in the virtual space, in communicating with others he demonstrates arrogance and extreme self-confidence, besides, the young man does not hesitate to use very ugly expressions in his speech. Ned is deeply shocked by the choice of his daughter, he does not understand why Stephanie liked Laird. The girl's father is determined to prevent further relations between his daughter and an extremely unpleasant young man. But the guy is not going to give up Stephanie, and an irreconcilable confrontation begins between the men.",
+
+  "app.MoviesData.WeAreTheMillers_Title": "We're the Millers",
+
+  "app.MoviesData.WeAreTheMillers": "David Clark is a small-time drug dealer. His clients include cooks and bored housewives. He does not sell drugs to children and therefore considers himself a man of principle. David is really good with kids, but it doesn't go unpunished - he tries to help teenagers in trouble and gets attacked by punk hooligans. They take drugs and money away from him, and our hero finds himself in a desperate situation. After all, he has nothing to pay off his supplier Brad. The only way out is to contract for the delivery of a large consignment of drugs across the border ...",
+
+  "app.MoviesData.IFeelPretty_Title": "I Feel Pretty",
+
+  "app.MoviesData.IFeelPretty": "True beauty is within us - how many times many have seen these words in books and heard in advertising. Perhaps, in the modern world, for many of us, these words have become nothing more than a beautiful expression, because the standards of beauty are constantly changing, and not everyone can keep up with them. Is there any point in this, because maybe it’s really enough just to believe in yourself? Directors Abby Cohn and Mark Silverstein (The Unkissed, The Vow) tried to answer this question by filming the life-affirming comedy Full Head Pretty Woman starring Amy Schumer. Rene Bennett works for a large cosmetics company. Her room is littered with fashion magazines, she spends her evenings watching beauty blogs on YouTube, but all this does not add confidence to the girl, because her personal life does not add up, and there are always no clothes in her size in stores. Because of all the same uncertainty, Rene continues to work away from the head office, does not dare to declare himself and fulfill his dream: to meet his idol, the head of the company, Avery LeClaire. But one day, a ridiculous incident in the gym changes everything: falling from the simulator, Rene hits his head hard, and when he wakes up, he begins to see and feel completely different.",
+
+  "app.MoviesData.CrazyStupidLove_Title": "Crazy, Stupid, Love",
+
+  "app.MoviesData.CrazyStupidLove": "In the film, many plot lines are intertwined, interconnected by a crazy feeling called «Love». The audience will undoubtedly be interested in watching online, how, in the end, everything was allowed in these confusing intricacies of feelings. American film critics called «this stupid love» the best romantic comedy of 2011. The story begins with an exemplary family man Cole Weever, who is very pleased with his life and is not going to change anything. But once his calmness and confidence in the future are broken against the wall of marital treason. The beloved still from the school, Emily goes to another, simultaneously demanding a divorce. The unfortunate Cole does not come up with anything better than drowning his grief in a glass, wiping his pants in a local bar. Here he gets acquainted with the charming womanizer Jacob, who is taking up a dull family man in a stylish and sophisticated Kazanov. Meanwhile, the son of Cole, a thirteen -year -old teenager falls in love with his nanny, while the nanny herself “dries” according to Weever the Elder.",
 
   /* Movies about space */
   "app.MoviesData.Interstellar": "The action takes the viewer to the near future, when space has almost been mastered by humanity that has stepped forward, but the resources of the Earth have been depleted. Due to the growing concentration of nitrogen on our planet, drought reigns and, as a result, a global food crisis. Employees of a secret NASA laboratory discover a wormhole in the orbit of Saturn, which allows them to overcome the space-time barrier and move to another galaxy in the shortest possible time. Perhaps this is a chance for salvation for all mankind. As part of the Lazar program, the first expedition is being made, as a result of which three planets most suitable for life are found on the other side of the so-called wormhole. Now it's time for the second expedition: Professor Brand and his colleagues will risk their own lives to conduct research in conditions where one hour is equal to several years on Earth, and find a way to resettle earthlings to another planet. Can scientists save humanity...",
