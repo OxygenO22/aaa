@@ -3,10 +3,12 @@ import { Header } from '../ui/header/Header';
 import s from './Layout.module.scss';
 import { BurgerMenu } from '../ui/burgerMenu/BurgerMenu';
 import { useTypedSelector } from '../hooks/useTypedSelector';
+import { useIntl } from "react-intl";
 
 
 
 export const Layout = () => {
+  const intl = useIntl();
   const { isBurgerMenuOpen } = useTypedSelector((state) => state.burgerMenu);
   return (
     <>
@@ -17,13 +19,13 @@ export const Layout = () => {
 
       <main className={s.main__wrapper}>
         <div className={s.main__ads_left}>
-          <h1>Реклама</h1>
+          <h1>{intl.formatMessage({ id: "app.MoviesData.Advertising" })}</h1>
         </div>
         <div className={s.main__outlet}>
           <Outlet />
         </div>
         <div className={s.main__ads_right}>
-          <h1>Реклама</h1>
+          <h1>{intl.formatMessage({ id: "app.MoviesData.Advertising" })}</h1>
         </div>
       </main>
     </>

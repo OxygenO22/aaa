@@ -9,6 +9,9 @@ export const messages_en = {
 
   /* «» */
 
+  /* Advertising */
+  "app.MoviesData.Advertising": "Advertising",
+
   /* No description */
     "app.MoviesData.NoDescription": "There is no description for this content yet, but it will appear soon.",
 

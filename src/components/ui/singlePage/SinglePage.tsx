@@ -63,11 +63,6 @@ export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
                             placeholderSrc={Placeholder}
                             alt={intl.formatMessage({ id: `${data.movie}` })}
                           />
-                          {/* <img
-                            className={st.singlepage__img}
-                            src={data.src}
-                            alt={data.movie}
-                          /> */}
                         </div>
                         <div className={st.singlepage__text_wrapper}>
                           {data.description ? (

@@ -10,6 +10,9 @@ export const messages_ru = {
 
   /* «» */
 
+  /* Advertising */
+  "app.MoviesData.Advertising": "Реклама",
+
   /* No description */
     "app.MoviesData.NoDescription": "Пока нет описания для этого контента, но в ближайшее время оно появится.",
 
