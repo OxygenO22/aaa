@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aaa/static/css/main.6f8938d3.css",
-    "main.js": "/aaa/static/js/main.ee124d03.js",
+    "main.js": "/aaa/static/js/main.4d5f78a9.js",
     "static/media/Ambient.png": "/aaa/static/media/Ambient.5568be426580abae4313.png",
     "static/media/BlackMirror.jpg": "/aaa/static/media/BlackMirror.6b939ef8ab68e12063e0.jpg",
     "static/media/CallCenter.jpg": "/aaa/static/media/CallCenter.87f34afea046128632ab.jpg",
@@ -74,6 +74,7 @@
     "static/media/Passengers.webp": "/aaa/static/media/Passengers.c02c75261f9665ffd6c0.webp",
     "static/media/CrazyStupidLove.webp": "/aaa/static/media/CrazyStupidLove.ebb27fb4cbf4b6da0199.webp",
     "static/media/Overboard.webp": "/aaa/static/media/Overboard.f945e39f50553545608d.webp",
+    "static/media/WindRiver.webp": "/aaa/static/media/WindRiver.388f1096840e324d7a29.webp",
     "static/media/TheUglyTruth.webp": "/aaa/static/media/TheUglyTruth.1d3ea8d89b31b0733134.webp",
     "static/media/adventures.webp": "/aaa/static/media/adventures.6bf17489b6f87dd0bee4.webp",
     "static/media/SeventinthAgain.webp": "/aaa/static/media/SeventinthAgain.d0276e116d0fea0b5508.webp",
@@ -87,10 +88,10 @@
     "static/media/darkMode.svg": "/aaa/static/media/darkMode.ee503ee8a37b00ed18108764cfabf163.svg",
     "static/media/menu.svg": "/aaa/static/media/menu.62156aa1f3f8ed08b3c42f31823cbef1.svg",
     "main.6f8938d3.css.map": "/aaa/static/css/main.6f8938d3.css.map",
-    "main.ee124d03.js.map": "/aaa/static/js/main.ee124d03.js.map"
+    "main.4d5f78a9.js.map": "/aaa/static/js/main.4d5f78a9.js.map"
   },
   "entrypoints": [
     "static/css/main.6f8938d3.css",
-    "static/js/main.ee124d03.js"
+    "static/js/main.4d5f78a9.js"
   ]
 }
