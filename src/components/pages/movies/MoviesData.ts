@@ -8,12 +8,18 @@ import ForCompany from '../../../pictures/movies/ForCompany.jpg';
 import ForFamaly from '../../../pictures/movies/ForFamaly.jpg';
 import Comedies from '../../../pictures/movies/Comedies.jpg';
 import ForeignSeries from '../../../pictures/movies/ForeignSeries.jpg';
+import Adventures from '../../../pictures/movies/adventures.webp';
 
 import TheParentTrap from '../../../pictures/movies/withKids/TheParentTrap.webp';
 import Matilda from '../../../pictures/movies/withKids/Matilda.webp';
 import Doubtfire from '../../../pictures/movies/withKids/Doubtfire.webp';
 import Wonder from '../../../pictures/movies/withKids/Wonder.webp';
 import StuartLittle from '../../../pictures/movies/withKids/StuartLittle.webp';
+
+import TheHoliday from '../../../pictures/movies/romantic/TheHoliday.webp';
+import TheProposal from '../../../pictures/movies/romantic/TheProposal.webp';
+import TheVow from '../../../pictures/movies/romantic/TheVow.webp';
+import Overboard from '../../../pictures/movies/romantic/Overboard.webp';
 
 import WeAreYourFriends from '../../../pictures/movies/yoursFilms/WeAreYourFriends.webp';
 import SeventinthAgain from '../../../pictures/movies/yoursFilms/SeventinthAgain.webp';
@@ -26,6 +32,36 @@ import WhyHim from '../../../pictures/movies/Comedies/WhyHim.webp';
 import WeAreTheMillers from '../../../pictures/movies/Comedies/WeAreTheMillers.webp';
 import IFeelPretty from '../../../pictures/movies/Comedies/IFeelPretty.webp';
 import CrazyStupidLove from '../../../pictures/movies/Comedies/CrazyStupidLove.webp';
+import WhatToExpectWhenYouAreExpecting from '../../../pictures/movies/Comedies/WhatToExpectWhenYouAreExpecting.webp';
+import HowToLoseAGuyInTenDays from '../../../pictures/movies/Comedies/HowToLoseAGuyInTenDays.webp';
+import TheUglyTruth from '../../../pictures/movies/Comedies/TheUglyTruth.webp';
+import HallPass from '../../../pictures/movies/Comedies/HallPass.webp';
+import WeddingCrashers from '../../../pictures/movies/Comedies/WeddingCrashers.webp';
+import TheChangeUp from '../../../pictures/movies/Comedies/TheChangeUp.webp';
+
+import SelfLess from '../../../pictures/movies/thrillers/SelfLess.webp';
+import Limitless from '../../../pictures/movies/thrillers/Limitless.webp';
+import Nobody from '../../../pictures/movies/thrillers/Nobody.webp';
+import IOndeDager from '../../../pictures/movies/thrillers/IOndeDager.webp';
+import NoEscape from '../../../pictures/movies/thrillers/NoEscape.webp';
+import NonStop from '../../../pictures/movies/thrillers/NonStop.webp';
+import Looper from '../../../pictures/movies/thrillers/Looper.webp';
+import LawAbidingCitizen from '../../../pictures/movies/thrillers/LawAbidingCitizen.webp';
+import TheNextThreeDays from '../../../pictures/movies/thrillers/TheNextThreeDays.webp';
+
+import Interstellar from '../../../pictures/movies/space/Interstellar.webp';
+import Passengers from '../../../pictures/movies/space/Passengers.webp';
+import Martian from '../../../pictures/movies/space/Martian.webp';
+import GuardiansOfTheGalaxy from '../../../pictures/movies/space/GuardiansOfTheGalaxy.webp';
+import Gravity from '../../../pictures/movies/space/Gravity.webp';
+
+import RedNotice from '../../../pictures/movies/adventures/RedNotice.webp';
+import TheLostCity from '../../../pictures/movies/adventures/TheLostCity.webp';
+import BulletTrain from '../../../pictures/movies/adventures/BulletTrain.webp';
+import Uncharted from '../../../pictures/movies/adventures/Uncharted.webp';
+import JungleCruise from '../../../pictures/movies/adventures/JungleCruise.webp';
+import JumanjiWelcomeToTheJungle from '../../../pictures/movies/adventures/JumanjiWelcomeToTheJungle.webp';
+import JumanjiTheNextLevel from '../../../pictures/movies/adventures/JumanjiTheNextLevel.webp';
 
 import Grendlandia from '../../../pictures/movies/catastrophe/Grendlandia.jpg';
 import twoThousandTwelve from '../../../pictures/movies/catastrophe/2012.jpg';
@@ -69,11 +105,11 @@ const MoviesData = [
     {id: 5, movie: 'app.MoviesData.TheHotChick_Title', src: `${TheHotChick}`, description: 'app.MoviesData.TheHotChick'},
 ]},
   {id: 3, to: '3', title: 'app.MoviesDescriptionData.romanticFilms', text: '', src: `${Romantical}`, movies: [
-    {id: 1, movie: 'Отпуск по обмену'},
-    {id: 2, movie: 'Пассажиры'},
-    {id: 3, movie: 'Предложение'},
-    {id: 4, movie: 'Клятва'},
-    {id: 5, movie: 'За бортом'},
+    {id: 1, movie: 'app.MoviesData.TheHoliday_Title', src: `${TheHoliday}`, description: 'app.MoviesData.TheHoliday'},
+    {id: 2, movie: 'app.MoviesData.Passengers_Title', src: `${Passengers}`, description: 'app.MoviesData.Passengers'},
+    {id: 3, movie: 'app.MoviesData.TheProposal_Title', src: `${TheProposal}`, description: 'app.MoviesData.TheProposal'},
+    {id: 4, movie: 'app.MoviesData.TheVow_Title', src: `${TheVow}`, description: 'app.MoviesData.TheVow'},
+    {id: 5, movie: 'app.MoviesData.Overboard_Title', src: `${Overboard}`, description: 'app.MoviesData.Overboard'},
 ]},
   {id: 4, to: '4', title: 'app.MoviesDescriptionData.russianSeries', text: '', src: `${RussianSeries}`, movies: [
     {id: 1, movie: 'Контейнер', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
@@ -93,55 +129,55 @@ const MoviesData = [
     {id: 3, movie: 'app.MoviesData.WeAreTheMillers_Title', src: `${WeAreTheMillers}`, description: 'app.MoviesData.WeAreTheMillers'},
     {id: 4, movie: 'app.MoviesData.IFeelPretty_Title', src: `${IFeelPretty}`, description: 'app.MoviesData.IFeelPretty'},
     {id: 5, movie: 'app.MoviesData.CrazyStupidLove_Title', src: `${CrazyStupidLove}`, description: 'app.MoviesData.CrazyStupidLove'},
-    {id: 6, movie: 'Чего ждать,когда ждёшь ребенка', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
-    {id: 7, movie: 'Как отделаться от парня за 10 дней', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
-    {id: 8, movie: 'Голая правда', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
-    {id: 9, movie: 'Безбрачная неделя', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
-    {id: 10, movie: 'Незваные гости (2005)', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
-    {id: 11, movie: 'Хочу,как ты', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
+    {id: 6, movie: 'app.MoviesData.WhatToExpectWhenYouAreExpecting_Title', src: `${WhatToExpectWhenYouAreExpecting}`, description: 'app.MoviesData.WhatToExpectWhenYouAreExpecting'},
+    {id: 7, movie: 'app.MoviesData.HowToLoseAGuyInTenDays_Title', src: `${HowToLoseAGuyInTenDays}`, description: 'app.MoviesData.HowToLoseAGuyInTenDays'},
+    {id: 8, movie: 'app.MoviesData.TheUglyTruth_Title', src: `${TheUglyTruth}`, description: 'app.MoviesData.TheUglyTruth'},
+    {id: 9, movie: 'app.MoviesData.HallPass_Title', src: `${HallPass}`, description: 'app.MoviesData.HallPass'},
+    {id: 10, movie: 'app.MoviesData.WeddingCrashers_Title', src: `${WeddingCrashers}`, description: 'app.MoviesData.WeddingCrashers'},
+    {id: 11, movie: 'app.MoviesData.TheChangeUp_Title', src: `${TheChangeUp}`, description: 'app.MoviesData.TheChangeUp'},
 ]},
   {id: 6, to: '6', title: 'app.MoviesDescriptionData.thrillers', text: '', src: `${Thrillers}`, movies: [
-    {id: 1, movie: 'Вне себя'},
-    {id: 2, movie: 'Области тьмы'},
-    {id: 3, movie: 'Никто (2021)'},
-    {id: 4, movie: 'Поездка (2021)'},
-    {id: 5, movie: 'Ветреная река'},
-    {id: 6, movie: 'Выхода нет'},
-    {id: 7, movie: 'Воздушный маршал'},
-    {id: 8, movie: 'Петля времени'},
-    {id: 9, movie: 'Законопослушный гражданин'},
-    {id: 10, movie: 'Три дня на побег'},
+    {id: 1, movie: 'app.MoviesData.SelfLess_Title', src: `${SelfLess}`, description: 'app.MoviesData.SelfLess'},
+    {id: 2, movie: 'app.MoviesData.Limitless_Title', src: `${Limitless}`, description: 'app.MoviesData.Limitless'},
+    {id: 3, movie: 'app.MoviesData.Nobody_Title', src: `${Nobody}`, description: 'app.MoviesData.Nobody'},
+    {id: 4, movie: 'app.MoviesData.IOndeDager_Title', src: `${IOndeDager}`, description: 'app.MoviesData.IOndeDager'},
+    {id: 5, movie: 'Ветреная река', src: `${TheChangeUp}`, description: 'app.MoviesData.TheChangeUp'},
+    {id: 6, movie: 'app.MoviesData.NoEscape_Title', src: `${NoEscape}`, description: 'app.MoviesData.NoEscape'},
+    {id: 7, movie: 'app.MoviesData.NonStop_Title', src: `${NonStop}`, description: 'app.MoviesData.NonStop'},
+    {id: 8, movie: 'app.MoviesData.Looper_Title', src: `${Looper}`, description: 'app.MoviesData.Looper'},
+    {id: 9, movie: 'app.MoviesData.LawAbidingCitizen_Title', src: `${LawAbidingCitizen}`, description: 'app.MoviesData.LawAbidingCitizen'},
+    {id: 10, movie: 'app.MoviesData.TheNextThreeDays_Title', src: `${TheNextThreeDays}`, description: 'app.MoviesData.TheNextThreeDays'},
 ]},
   {id: 7, to: '7', title: 'app.MoviesDescriptionData.disasters', text: '', src: `${Catastrophes}`, movies: [
-    {id: 1, movie: 'Гренландия', src: `${Grendlandia}`, description: 'app.MoviesData.Grendlandia'},
-    {id: 2, movie: 'Разлом Сан-Андреас', src: `${SanAndreas}`, description: 'app.MoviesData.SanAndreas'},
-    {id: 3, movie: '2012', src: `${twoThousandTwelve}`, description: 'app.MoviesData.twoThousandTwelve'},
-    {id: 4, movie: 'Волна', src: `${Wave}`, description: 'app.MoviesData.Wave'},
-    {id: 5, movie: 'Разлом', src: `${Fault}`, description: 'app.MoviesData.Fault'},
-    {id: 6, movie: 'Монстро', src: `${Monstro}`, description: 'app.MoviesData.Monstro'},
+    {id: 1, movie: 'app.MoviesData.Grendlandia_Title', src: `${Grendlandia}`, description: 'app.MoviesData.Grendlandia'},
+    {id: 2, movie: 'app.MoviesData.SanAndreas_Title', src: `${SanAndreas}`, description: 'app.MoviesData.SanAndreas'},
+    {id: 3, movie: 'app.MoviesData.twoThousandTwelve_Title', src: `${twoThousandTwelve}`, description: 'app.MoviesData.twoThousandTwelve'},
+    {id: 4, movie: 'app.MoviesData.Wave_Title', src: `${Wave}`, description: 'app.MoviesData.Wave'},
+    {id: 5, movie: 'app.MoviesData.Fault_Title', src: `${Fault}`, description: 'app.MoviesData.Fault'},
+    {id: 6, movie: 'app.MoviesData.Monstro_Title', src: `${Monstro}`, description: 'app.MoviesData.Monstro'},
 ]},
   {id: 8, to: '8', title: 'app.MoviesDescriptionData.aboutSpace', text: '', src: `${Space}`, movies: [
-    {id: 1, movie: 'Интерстеллар', src: `${Monstro}`, description: 'app.MoviesData.Interstellar'},
-    {id: 2, movie: 'Пассажиры', src: `${Monstro}`, description: 'app.MoviesData.Passengers'},
-    {id: 3, movie: 'Марсианин', src: `${Monstro}`, description: 'app.MoviesData.Martian'},
-    {id: 4, movie: 'Стражи Галактики', src: `${Monstro}`, description: 'app.MoviesData.GuardiansOfTheGalaxy'},
-    {id: 5, movie: 'Гравитация', src: `${Monstro}`, description: 'app.MoviesData.Gravity'},
+    {id: 1, movie: 'app.MoviesData.Interstellar_Title', src: `${Interstellar}`, description: 'app.MoviesData.Interstellar'},
+    {id: 2, movie: 'app.MoviesData.Passengers_Title', src: `${Passengers}`, description: 'app.MoviesData.Passengers'},
+    {id: 3, movie: 'app.MoviesData.Martian_Title', src: `${Martian}`, description: 'app.MoviesData.Martian'},
+    {id: 4, movie: 'app.MoviesData.GuardiansOfTheGalaxy_Title', src: `${GuardiansOfTheGalaxy}`, description: 'app.MoviesData.GuardiansOfTheGalaxy'},
+    {id: 5, movie: 'app.MoviesData.Gravity_Title', src: `${Gravity}`, description: 'app.MoviesData.Gravity'},
 ]},
   {id: 9, to: '9', title: 'app.MoviesDescriptionData.americanSeries', text: '', src: `${ForeignSeries}`, movies: [
-    {id: 1, movie: 'Секс в большом городе', src: `${SexInTheCity}`, description: ''},
-    {id: 2, movie: 'Отчаянные домохозяйки', src: `${DesperateHousewives}`, description: ''},
-    {id: 3, movie: 'Почему женшины убивают', src: `${WhyWomenKill}`, description: ''},
-    {id: 4, movie: 'Секс / жизнь', src: `${SexLife}`, description: ''},
-    {id: 5, movie: 'Черное зеркало', src: `${BlackMirror}`, description: ''},
+    {id: 1, movie: 'app.MoviesData.SexAndTheCity_Title', src: `${SexInTheCity}`, description: 'app.MoviesData.SexAndTheCity'},
+    {id: 2, movie: 'app.MoviesData.DesperateHousewives_Title', src: `${DesperateHousewives}`, description: 'app.MoviesData.DesperateHousewives'},
+    {id: 3, movie: 'app.MoviesData.WhyWomenKill_Title', src: `${WhyWomenKill}`, description: 'app.MoviesData.WhyWomenKill'},
+    {id: 4, movie: 'app.MoviesData.SexLife_Title', src: `${SexLife}`, description: 'app.MoviesData.SexLife'},
+    {id: 5, movie: 'app.MoviesData.BlackMirror_Title', src: `${BlackMirror}`, description: 'app.MoviesData.BlackMirror'},
 ]},
-  {id: 10, to: '10', title: 'app.MoviesDescriptionData.adventureFilms', text: '', src: `${RussianSeries}`, movies: [
-    {id: 1, movie: 'Красное уведомление'},
-    {id: 2, movie: 'Затерянный город'},
-    {id: 3, movie: 'Быстрее пули'},
-    {id: 4, movie: 'Анчартед'},
-    {id: 5, movie: 'Круиз по джунглям'},
-    {id: 6, movie: 'Джуманджи'},
-    {id: 7, movie: 'Джуманджи 2'},
+  {id: 10, to: '10', title: 'app.MoviesDescriptionData.adventureFilms', text: '', src: `${Adventures}`, movies: [
+    {id: 1, movie: 'app.MoviesData.RedNotice_Title', src: `${RedNotice}`, description: 'app.MoviesData.RedNotice'},
+    {id: 2, movie: 'app.MoviesData.TheLostCity_Title', src: `${TheLostCity}`, description: 'app.MoviesData.TheLostCity'},
+    {id: 3, movie: 'app.MoviesData.BulletTrain_Title', src: `${BulletTrain}`, description: 'app.MoviesData.BulletTrain'},
+    {id: 4, movie: 'app.MoviesData.Uncharted_Title', src: `${Uncharted}`, description: 'app.MoviesData.Uncharted'},
+    {id: 5, movie: 'app.MoviesData.JungleCruise_Title', src: `${JungleCruise}`, description: 'app.MoviesData.JungleCruise'},
+    {id: 6, movie: 'app.MoviesData.JumanjiWelcomeToTheJungle_Title', src: `${JumanjiWelcomeToTheJungle}`, description: 'app.MoviesData.JumanjiWelcomeToTheJungle'},
+    {id: 7, movie: 'app.MoviesData.JumanjiTheNextLevel_Title', src: `${JumanjiTheNextLevel}`, description: 'app.MoviesData.JumanjiTheNextLevel'},
 ]},
 ];
 
