@@ -12,6 +12,7 @@
 .singlepage__back_wrapper {
   position: sticky;
   top: 90px;
+  z-index: 1;
   display: flex;
   justify-content: flex-end;
   align-items: center;
