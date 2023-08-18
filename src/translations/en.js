@@ -9,17 +9,16 @@ export const messages_en = {
 
   /* «» */
 
-  /* Music page */
-  "app.MusicData.Title": "Ambient - music for relaxation and pleasure.",
-  "app.MusicData.Text": "Ambient is a genre in which more attention is paid to the actual sound than the musical structure, the purpose of which is to form a certain atmosphere or mood using ordinary and non -traditional instruments, sound clips, and sometimes vocals. You can sing in an embusy music, although most of the embosse is instrumental. The embossed music is not limited to any specific mood or sound, but rather accepts the idea that any mood or atmosphere can be achieved with the help of only sound, without relying on the musical composition or structure of the song. The embossed was included in a large number of various existing musical genres, thanks to its extremely compatible use and versatility.",
-  "app.MusicData.linkName": "Ambient is an example of a relaxing selection in the video on YouTube",
+  /* Movies */
 
   /* Movies Description */
   "app.MoviesDescriptionData.mainTitle": "Movies",
   "app.MoviesDescriptionData.mainDescription": "This section contains selections of films to suit your mood.",
   
   /* Movies for watching with kids */
-  "app.MoviesDescriptionData.withKids": "5 movies to watch with kids",
+  "app.MoviesData.Title_WithKids": "Movies to watch with kids",
+
+  "app.MoviesData.Subtitle_WithKids": "5 movies to watch with kids",
 
   "app.MoviesData.TheParentTrap_Title": "The Parent Trap (1998)",
 
@@ -42,7 +41,9 @@ export const messages_en = {
   "app.MoviesData.StuartLittle": "When George asked his parents to adopt a little brother for him, the Littles took his request too literally. And one fine day, a tiny little mouse Stuart appeared in their big house, who is dressed in a fashionable suit and can talk. From this moment, the unpredictable, funny, and sometimes dangerous adventures of Stuart Little begin. All the cats in the area are hunting for the baby, he is kidnapped by scammers, and in order to return home, the new family member will have to become a real hero.",
 
   /* Movies for youth films */
-  "app.MoviesDescriptionData.youthFilms": "5 youth films",
+  "app.MoviesData.Title_YouthMovies": "Youth movies",
+
+  "app.MoviesData.Subtitle_YouthMovies": "5 youth movies",
 
   "app.MoviesData.WeAreYourFriends_Title": "We Are Your Friends",
 
@@ -65,7 +66,9 @@ export const messages_en = {
   "app.MoviesData.TheHotChick": "Popular but obnoxious high school student Jessica wakes up one morning in the body of a 30-year-old man with not the most attractive appearance. The girl goes in search of her body, and this adventure helps her see herself from the side and understand how superficial and narrow-minded she was.",
 
   /* Romantic */
-  "app.MoviesDescriptionData.romanticFilms": "5 romantic films",
+  "app.MoviesData.Title_RomanticMovies": "Romantic movies",
+  
+  "app.MoviesData.Subtitle_RomanticMovies": "5 romantic movies",
 
   "app.MoviesData.TheHoliday_Title": "The Holiday",
 
@@ -84,7 +87,9 @@ export const messages_en = {
   "app.MoviesData.Overboard": "Capricious millionaire playboy Leonardo one day falls overboard on his yacht. After the fall, he loses his memory, ends up in the hospital, and the pizza delivery boy Kate, eager to take revenge on the guy for rudeness, assures him that he is her husband and the father of her three children.",
 
   /* Russian series  */
-  "app.MoviesDescriptionData.russianSeries": "10 excellent russian series",
+  "app.MoviesData.Title_RussianSeries": "Russian series",
+
+  "app.MoviesData.Subtitle_RussianSeries": "10 excellent russian series",
 
   "app.MoviesData.Konteiner": "Contrary to common practice, the surrogate mother Sasha moves into the house of her customers and finds herself in a world completely alien to her - the mansion of a wealthy official Vadim and his wife Marina. Sasha is a “container” for them, a new toy. However, what at the beginning seemed to be caring for the unborn child soon turns into trials for each of the tenants.",
 
@@ -107,7 +112,9 @@ export const messages_en = {
   "app.MoviesData.FamilyWar": "Misha and Dima have been friends since childhood. A common business, neighboring houses without a fence, friendship between families - an idyll that, as it seemed, could not be destroyed. The upcoming wedding of the children was to strengthen the long-term union. However, during a family celebration, secrets are suddenly revealed that turn best friends into sworn enemies in an instant.",
 
   /* Comedies */
-  "app.MoviesDescriptionData.comedies": "11 comedies for a great evening",
+  "app.MoviesData.Title_Comedies": "Comedies",
+
+  "app.MoviesData.Subtitle_Comedies": "11 comedies for a great evening",
 
   "app.MoviesData.JustGoWithIt_Title": "Just Go with It",
 
@@ -154,7 +161,9 @@ export const messages_en = {
   "app.MoviesData.TheChangeUp": "To say that lifelong friends Mitch and Dave just lead different lives is to say that apples and fire hydrants are vaguely different things. No, Mitch and Dave lead extremely conflicted lives. The world of child-male Mitch is full of daily debauchery and as many joints as he can smoke between his acting auditions. As his father says, his achievements can easily be kept on one eyelash. Married, hard-working pillar of society Dave, however, has three adorable children, a beautiful wife (whom he never sees because he works all the time) and a successful career as a lawyer, which he has been striving for all his life. But people have been jealous for stupid reasons almost since the dawn of time, and naturally each wants what the other has. So let's just get to the chase - that's what the movie does - and state the obvious: they switch lives. Suddenly, their wildest and most sexually perverted dreams become possible. Mitch is able to start a family, make a real career and, he thinks, win over Dave's sexy wife, Jamie. Dave can start Mitch's weekly harem and have sex with each of them without any guilt. Not to mention, he can fool around, get high, and watch porn whenever he wants.",
 
   /* Thrillers */
-  "app.MoviesDescriptionData.thrillers": "10 exciting thrillers",
+  "app.MoviesData.Title_Thrillers": "Thrillers",
+
+  "app.MoviesData.Subtitle_Thrillers": "10 exciting thrillers",
 
   "app.MoviesData.SelfLess_Title": "Self less (2015)",
 
@@ -193,7 +202,9 @@ export const messages_en = {
   "app.MoviesData.TheNextThreeDays": "John's life seemed perfect until his wife was arrested on suspicion of murder. While Lara is in prison, John is raising his son alone and is trying by all means to prove her innocence. But when legal means to free his beloved have been exhausted, the only thing left for him is to develop a sophisticated escape plan. And John is willing to risk everything.",
 
   /* Movies about desasters */
-  "app.MoviesDescriptionData.disasters": "6 films about disasters",
+  "app.MoviesData.Title_Disasters": "Disaster movies",
+
+  "app.MoviesData.Subtitle_Disasters": "6 movies about disasters",
 
   "app.MoviesData.Grendlandia_Title": "Greenland",
 
@@ -220,7 +231,9 @@ export const messages_en = {
   "app.MoviesData.Monstro": "A group of friends are throwing a farewell party for Rob, who is leaving for Japan, in one of the New York apartments. Suddenly, the lights go out in a giant metropolis, and the city is shaken by destruction on an unprecedented scale. Something has attacked New York, sowing panic, destruction and devouring people. The army is powerless against a powerful, giant monster, and Manhattan is declared a closed zone, but somewhere near Central Park, Rob's girlfriend got into trouble...",
 
   /* Movies about space */
-  "app.MoviesDescriptionData.aboutSpace": "5 incredible films about space",
+  "app.MoviesData.Title_AboutSpace": "Movies about space",
+
+  "app.MoviesData.Subtitle_AboutSpace": "5 incredible films about space",
 
   "app.MoviesData.Interstellar_Title": "Interstellar",
 
@@ -243,7 +256,9 @@ export const messages_en = {
   "app.MoviesData.Gravity": "Dr. Ryan Stone, a brilliant medical engineer, embarks on his first space mission under the command of veteran astronaut Matt Kowalski, for whom this flight is his last before retiring. But during the seemingly routine work overboard, disaster strikes.",
 
   /* American Series */
-  "app.MoviesDescriptionData.americanSeries": "5 excellent american series",
+  "app.MoviesData.Title_AmericanSeries": "American series",
+
+  "app.MoviesData.Subtitle_AmericanSeries": "5 excellent american series",
 
   "app.MoviesData.SexAndTheCity_Title": "Sex and the City (1998 – 2004)",
 
@@ -266,7 +281,9 @@ export const messages_en = {
   "app.MoviesData.BlackMirror": "In recent years, technology has completely changed our lives before we had time to come to our senses and doubt them. In every house, on every table, on every palm there is a plasma TV, a computer monitor, a smartphone display - a black mirror of our existence in the 21st century.",
 
   /* Adventure movies */
-  "app.MoviesDescriptionData.adventureFilms": "7 excellent adventure films",
+  "app.MoviesData.Title_AdventureMovies": "Adventures",
+
+  "app.MoviesData.Subtitle_AdventureMovies": "7 excellent adventure films",
 
   "app.MoviesData.RedNotice_Title": "Red Notice",
 
@@ -296,19 +313,23 @@ export const messages_en = {
 
   "app.MoviesData.JumanjiTheNextLevel": "Trying to save Spencer, who is back in the game, the others go there as well. To their surprise, the rules of Jumanji have changed, and what's more - this time Spencer's grandpa and his elderly friend Milo are dragged into the game. In order to complete tasks and return home, friends will have to go on a journey through previously unknown and mysterious corners of Jumanji - from arid desert to snow-capped mountains.",
 
-  
+  /* Music */
 
-
-
-
-
-
-
-
-
-
+  /* Music description */
   "app.MusicDescriptionData.mainTitle": "Music",
   "app.MusicDescriptionData.mainDescription": "This section contains descriptions of different genres of music, as well as their examples.",
+
+  /* Music page */
+  "app.MusicData.Title_Ambient": "Ambient",
+
+  "app.MusicData.Subtitle_Ambient": "Ambient - music for relaxation and pleasure.",
+
+  "app.MusicData.Text": "Ambient is a genre in which more attention is paid to the actual sound than the musical structure, the purpose of which is to form a certain atmosphere or mood using ordinary and non -traditional instruments, sound clips, and sometimes vocals. You can sing in an embusy music, although most of the embosse is instrumental. The embossed music is not limited to any specific mood or sound, but rather accepts the idea that any mood or atmosphere can be achieved with the help of only sound, without relying on the musical composition or structure of the song. The embossed was included in a large number of various existing musical genres, thanks to its extremely compatible use and versatility.",
+  "app.MusicData.linkName": "Ambient is an example of a relaxing selection in the video on YouTube",
+
+/* Interesting */
+
+  /* Interesting description */
   "app.PopularDescriptionData.mainTitle": "Popular",
   "app.PopularDescriptionData.mainDescription": "This section contains popular and interesting news and articles.",
 };

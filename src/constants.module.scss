@@ -10,15 +10,16 @@ $text-color: var(--textThemeColor1);
 
 //font-sizes
 $mainText-size: 16px;
-$buttonText-size: 1em;
-$largeText-size: 2em;
-$middleText-size: 1.5em;
-$middleMediaText-size: 1.2em;
+$smallText-size: 1em;
 $basicText-size: 1.2em;
+$basicLargeText-size: 1.3em;
+$middleText-size: 1.5em;
+$middleLargeText-size: 1.7em;
+$largeText-size: 2em;
 
 //buttons style
 @mixin buttonStyle {
-  font-size: $buttonText-size;
+  font-size: $smallText-size;
   font-weight: 500;
   color: #000;
   border: none;

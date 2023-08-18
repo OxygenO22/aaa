@@ -1,6 +1,7 @@
 @import '../../../constants.module.scss';
 
 .singlepage__wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -9,6 +10,8 @@
 }
 
 .singlepage__back_wrapper {
+  position: sticky;
+  top: 90px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -127,6 +130,18 @@
     color: #f5c339;
   }
   
+}
+
+@media (max-width: $tablet-width) {
+  .singlepage__content_movie_title {
+    font-size: $basicLargeText-size;
+  }
+  .singlepage__title {
+    font-size: $middleLargeText-size;
+  }
+  .singlepage__link_text {
+    font-size: $middleLargeText-size;
+  }
 }
 
 @media (max-width: $phone-width) {

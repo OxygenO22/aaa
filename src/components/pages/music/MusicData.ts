@@ -5,7 +5,7 @@ const MusicDescriptionData = [
 ];
 
 const MusicData = [
-  {id: 1, to: '1', title: 'app.MusicData.Title', text: 'app.MusicData.Text', src: `${Ambient}`, link: 'https://www.youtube.com/watch?v=DrNuBUSCawA', linkName: 'app.MusicData.linkName'}
+  {id: 1, to: '1', title: 'app.MusicData.Title_Ambient',  subtitle: 'app.MusicData.Subtitle_Ambient', text: 'app.MusicData.Text', src: `${Ambient}`, link: 'https://www.youtube.com/watch?v=DrNuBUSCawA', linkName: 'app.MusicData.linkName'}
 ];
 
 export {MusicDescriptionData, MusicData};
