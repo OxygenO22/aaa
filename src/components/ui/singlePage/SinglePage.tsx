@@ -3,6 +3,8 @@ import { JumpButton } from '../buttons/jumpButton/JumpButton';
 import st from './SinglePage.module.scss';
 import { Link } from 'react-router-dom';
 import { useIntl } from "react-intl";
+import { LazyImage } from '../lazyImage/LazyImage';
+import Placeholder from "../../../pictures/Logo.png";
 
 interface ISinglePage {
   componentData: IData[];
@@ -56,11 +58,16 @@ export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
                       </div>
                       <div className={st.singlepage__content_inner}>
                         <div className={st.singlepage__img_wrapper}>
-                          <img
+                          <LazyImage
+                            src={data.src}
+                            placeholderSrc={Placeholder}
+                            alt={intl.formatMessage({ id: `${data.movie}` })}
+                          />
+                          {/* <img
                             className={st.singlepage__img}
                             src={data.src}
                             alt={data.movie}
-                          />
+                          /> */}
                         </div>
                         <div className={st.singlepage__text_wrapper}>
                           {data.description ? (
@@ -71,21 +78,9 @@ export const SinglePage: FC<ISinglePage> = ({ componentData, id }) => {
                             </p>
                           ) : (
                             <p className={st.singlepage__text}>
-                              Lorem ipsum dolor sit amet consectetur adipisicing
-                              elit. Voluptates aliquid hic rem laboriosam
-                              dolores ad aut vero porro, sit blanditiis quis nam
-                              numquam velit, omnis eaque distinctio est rerum
-                              officia. Nihil molestias accusamus facere iusto
-                              nisi laboriosam atque numquam, vel sit, delectus
-                              sint expedita error placeat velit aperiam! Itaque
-                              eum quis nostrum deserunt, temporibus quisquam
-                              dolore aliquid sint facere labore, quaerat aperiam
-                              vel ex accusamus sit consequatur ut? Laboriosam
-                              animi voluptatum veritatis ullam et incidunt illum
-                              blanditiis hic, magnam architecto amet illo odio
-                              facilis rem? Repellat ratione, vitae repudiandae
-                              ut consequatur aspernatur quaerat ad deleniti,
-                              dicta quo eligendi nesciunt ex?
+                              {intl.formatMessage({
+                                id: "app.MoviesData.NoDescription",
+                              })}
                             </p>
                           )}
                         </div>

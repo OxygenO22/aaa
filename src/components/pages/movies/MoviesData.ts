@@ -43,6 +43,7 @@ import SelfLess from '../../../pictures/movies/thrillers/SelfLess.webp';
 import Limitless from '../../../pictures/movies/thrillers/Limitless.webp';
 import Nobody from '../../../pictures/movies/thrillers/Nobody.webp';
 import IOndeDager from '../../../pictures/movies/thrillers/IOndeDager.webp';
+import WindRiver from '../../../pictures/movies/thrillers/WindRiver.webp';
 import NoEscape from '../../../pictures/movies/thrillers/NoEscape.webp';
 import NonStop from '../../../pictures/movies/thrillers/NonStop.webp';
 import Looper from '../../../pictures/movies/thrillers/Looper.webp';
@@ -112,16 +113,16 @@ const MoviesData = [
     {id: 5, movie: 'app.MoviesData.Overboard_Title', src: `${Overboard}`, description: 'app.MoviesData.Overboard'},
 ]},
   {id: 4, to: '4', title: 'app.MoviesData.Title_RussianSeries', subtitle: 'app.MoviesData.Subtitle_RussianSeries', text: '', src: `${RussianSeries}`, movies: [
-    {id: 1, movie: 'Контейнер', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
-    {id: 2, movie: 'Озабоченные или любовь зла', src: `${Anxious}`, description: 'app.MoviesData.Anxious'},
-    {id: 3, movie: 'ИП Пирогова', src: `${Pirogova}`, description: 'app.MoviesData.Pirogova'},
-    {id: 4, movie: 'Бригада', src: `${Brigada}`, description: 'app.MoviesData.Brigada'},
-    {id: 5, movie: 'Сладкая жизнь', src: `${SugarLife}`, description: 'app.MoviesData.SugarLife'},
-    {id: 6, movie: 'Обычная женщина', src: `${UsualWoman}`, description: 'app.MoviesData.UsualWoman'},
-    {id: 7, movie: 'Бывшие', src: `${Bivshie}`, description: 'app.MoviesData.Bivshie'},
-    {id: 8, movie: 'Кухня', src: `${Kitchen}`, description: 'app.MoviesData.Kitchen'},
-    {id: 9, movie: 'Call-центр', src: `${CallCenter}`, description: 'app.MoviesData.CallCenter'},
-    {id: 10, movie: 'Война семей', src: `${FamilyWar}`, description: 'app.MoviesData.FamilyWar'},
+    {id: 1, movie: 'app.MoviesData.Konteiner_Title', src: `${Konteiner}`, description: 'app.MoviesData.Konteiner'},
+    {id: 2, movie: 'app.MoviesData.Anxious_Title', src: `${Anxious}`, description: 'app.MoviesData.Anxious'},
+    {id: 3, movie: 'app.MoviesData.Pirogova_Title', src: `${Pirogova}`, description: 'app.MoviesData.Pirogova'},
+    {id: 4, movie: 'app.MoviesData.Brigada_Title', src: `${Brigada}`, description: 'app.MoviesData.Brigada'},
+    {id: 5, movie: 'app.MoviesData.SugarLife_Title', src: `${SugarLife}`, description: 'app.MoviesData.SugarLife'},
+    {id: 6, movie: 'app.MoviesData.UsualWoman_Title', src: `${UsualWoman}`, description: 'app.MoviesData.UsualWoman'},
+    {id: 7, movie: 'app.MoviesData.Bivshie_Title', src: `${Bivshie}`, description: 'app.MoviesData.Bivshie'},
+    {id: 8, movie: 'app.MoviesData.Kitchen_Title', src: `${Kitchen}`, description: 'app.MoviesData.Kitchen'},
+    {id: 9, movie: 'app.MoviesData.CallCenter_Title', src: `${CallCenter}`, description: 'app.MoviesData.CallCenter'},
+    {id: 10, movie: 'app.MoviesData.FamilyWar_Title', src: `${FamilyWar}`, description: 'app.MoviesData.FamilyWar'},
 ]},
   {id: 5, to: '5', title: 'app.MoviesData.Title_Comedies', subtitle: 'app.MoviesData.Subtitle_Comedies', text: '', src: `${Comedies}`, movies: [
     {id: 1, movie: 'app.MoviesData.JustGoWithIt_Title', src: `${JustGoWithIt}`, description: 'app.MoviesData.JustGoWithIt'},
@@ -141,7 +142,7 @@ const MoviesData = [
     {id: 2, movie: 'app.MoviesData.Limitless_Title', src: `${Limitless}`, description: 'app.MoviesData.Limitless'},
     {id: 3, movie: 'app.MoviesData.Nobody_Title', src: `${Nobody}`, description: 'app.MoviesData.Nobody'},
     {id: 4, movie: 'app.MoviesData.IOndeDager_Title', src: `${IOndeDager}`, description: 'app.MoviesData.IOndeDager'},
-    {id: 5, movie: 'Ветреная река', src: `${TheChangeUp}`, description: 'app.MoviesData.TheChangeUp'},
+    {id: 5, movie: 'app.MoviesData.WindRiver_Title', src: `${WindRiver}`, description: 'app.MoviesData.WindRiver'},
     {id: 6, movie: 'app.MoviesData.NoEscape_Title', src: `${NoEscape}`, description: 'app.MoviesData.NoEscape'},
     {id: 7, movie: 'app.MoviesData.NonStop_Title', src: `${NonStop}`, description: 'app.MoviesData.NonStop'},
     {id: 8, movie: 'app.MoviesData.Looper_Title', src: `${Looper}`, description: 'app.MoviesData.Looper'},

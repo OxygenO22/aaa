@@ -9,6 +9,9 @@ export const messages_en = {
 
   /* «» */
 
+  /* No description */
+    "app.MoviesData.NoDescription": "There is no description for this content yet, but it will appear soon.",
+
   /* Movies */
 
   /* Movies Description */
@@ -91,23 +94,43 @@ export const messages_en = {
 
   "app.MoviesData.Subtitle_RussianSeries": "10 excellent russian series",
 
+  "app.MoviesData.Konteiner_Title": "Container",
+
   "app.MoviesData.Konteiner": "Contrary to common practice, the surrogate mother Sasha moves into the house of her customers and finds herself in a world completely alien to her - the mansion of a wealthy official Vadim and his wife Marina. Sasha is a “container” for them, a new toy. However, what at the beginning seemed to be caring for the unborn child soon turns into trials for each of the tenants.",
+
+  "app.MoviesData.Anxious_Title": "The preoccupied or the love of evil",
 
   "app.MoviesData.Anxious": "Realizing that something needs to be changed in life, a simple girl Sasha Gvozdikova leaves Yekaterinburg for Moscow, leaving a boring job and a married lover. She writes stories and dreams of getting them published, but she overestimates her writing talent. Together with Sasha, two of her best friends from Yekaterinburg, Katya and Alena, live in Moscow. The plot of the story revolves around three heroines who are trying to find themselves in the life of the capital and in relationships.",
 
+  "app.MoviesData.Pirogova_Title": "Pirogova",
+
   "app.MoviesData.Pirogova": "Housewife Vera was absorbed in family cares for fifteen years of marriage. After the betrayal of her husband, in order to feed herself and her family, the woman began her 'sTORTap' in the confectionery art. A teenage daughter, an elderly quirky father and an eccentric sister have become part of the sweet business.",
+
+  "app.MoviesData.Brigada_Title": "Brigade",
 
   "app.MoviesData.Brigada": "This is the story of four childhood friends, ordinary Moscow guys, Sasha Bely, Kosmos, Pchela and Phil, who grew up in the same yard. Friends decided to earn some money, but an unplanned murder instantly mixed up everything planned, putting their lives on the line. The stakes are too high, but there is nowhere to retreat. Now the guys are making their way in the criminal world and, by the will of fate, are turning into one of the most cohesive and influential groups ...",
 
+  "app.MoviesData.SugarLife_Title": "Sweet life",
+
   "app.MoviesData.SugarLife": "At the center of the story of are six successful thirty-year-old Muscovites, whose lives change with the appearance of the main character Sasha, a single mother from Perm who earns a living in a nightclub dancing go-go. After an unpleasant incident at the birthday party of a local major, Sasha sends the child to her grandmother, while she herself goes to visit her Moscow friend Lera. Once they danced together in the corps de ballet of the Bolshoi Theater. The action of the series lasts only 8 days, but during this time the life of each of the characters will turn 180 degrees. And each of the participants in the events will have time to show themselves from the most unexpected side: in the range from absolute disgust to real nobility.",
+
+  "app.MoviesData.UsualWoman_Title": "Ordinary woman",
 
   "app.MoviesData.UsualWoman": "39-year-old Marina has an ordinary small business - a flower shop, an ordinary family - her husband works as a surgeon, her daughters study: the youngest - at a private school, the eldest - at the institute, and quite ordinary worries. Her life seems happy to those around her, but incredible family secrets are hidden behind this prosperous facade. This is the story of the most ordinary woman living a very unusual life.",
 
+  "app.MoviesData.Bivshie_Title": "Former",
+
   "app.MoviesData.Bivshie": "The main character of the series, Yana, is a patient in a rehabilitation clinic for alcoholics and drug addicts. She has a difficult path to recovery ahead of her. But one day in Yana's life everything changes. She meets Ilya, a new consultant psychologist. At first, the girl for him is another difficult patient, but gradually Ilya begins to see Yana's talents, which are revealed in the process of recovery. New feelings arise, unexpected for both ...",
+
+  "app.MoviesData.Kitchen_Title": "The Kitchen",
 
   "app.MoviesData.Kitchen": "«Food has always been close to people. It tempts, inspires, delights, repulses. But a person cannot live without food, which means that the one who creates food can rule the world...». So Maxim Lavrov thought when he went to fulfill his dream - to get a job as a cook in one of the most expensive restaurants in the capital. The dream came true, but in reality everything turned out not so tasty. The chef of the restaurant Viktor Barinov is a real star of the gastronomic beau monde, who knows how to please a demanding audience. The flip side of this ideal image is alcohol abuse, gambling and an unbearable character. In anger, Barinov is terrible, in a spree - indomitable. Art director Victoria Goncharova is a real ice queen, a careerist with an icy heart, but it is with her that Max spends the night before going to a new job. And the whole team of cooks is just waiting for the rookie to make a mistake in order to laugh heartily.",
 
+  "app.MoviesData.CallCenter_Title": "The Call center",
+
   "app.MoviesData.CallCenter": "Moscow, office skyscraper. On the 12th floor there is a call center of the online store  «Boutique for Adults». One morning, as usual, coming to work, twelve employees suddenly find out that there is a bomb in the room with a timer set for 8 hours, and the exit is closed. The voices of unknown people, who introduced themselves as Dad and Mom, threaten to blow everyone up at any moment if the «children» do not behave well and obey. While the countdown is going on, the comrades in misfortune will have to experience the absolute power of invisible sadists and learn about each other's life that they did not even suspect.",
+
+  "app.MoviesData.FamilyWar_Title": "Family War",
 
   "app.MoviesData.FamilyWar": "Misha and Dima have been friends since childhood. A common business, neighboring houses without a fence, friendship between families - an idyll that, as it seemed, could not be destroyed. The upcoming wedding of the children was to strengthen the long-term union. However, during a family celebration, secrets are suddenly revealed that turn best friends into sworn enemies in an instant.",
 
@@ -180,6 +203,10 @@ export const messages_en = {
   "app.MoviesData.IOndeDager_Title": "I onde dager (2021)",
 
   "app.MoviesData.IOndeDager": "A married couple of losers who are deeply in debt - a soap opera director and an unclaimed actress - come to a forest house by the lake for the weekend. It seems that they were going to spend time in silence and solitude, but in fact, each plans to kill the other. However, before they can carry out their intentions, uninvited guests are found in the house.",
+
+  "app.MoviesData.WindRiver_Title": "WindRiver (2016)",
+
+  "app.MoviesData.WindRiver": "State of Wyoming. On the territory of the Windy River Indian Reservation, gamekeeper Corey Lambert finds the mutilated body of a young girl. An aspiring FBI agent who is unfamiliar with local natural conditions and customs asks a hunter from the Department of Fish and Game to help catch the girl's killers.",
 
   "app.MoviesData.NoEscape_Title": "No Escape (2014)",
 
