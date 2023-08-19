@@ -19,13 +19,13 @@ export const Router = () => {
     <IntlProvider locale={languageCode} messages={messages}>
       <BrowserRouter>
         <Routes>
-          <Route element={<Layout />} path="/">
+          <Route element={<Layout />} path="/aaa/">
             {/* <Route element={<Popular />}  />
             <Route element={<PopularSinglePage />} path="/:id" /> */}
             <Route element={<Movies />} index/>
-            <Route element={<MoviesSinglePage />} path="/:id" />
-            <Route element={<Music />} path="/music" />
-            <Route element={<MusicSinglePage />} path="/music/:id" />
+            <Route element={<MoviesSinglePage />} path="/aaa/:id" />
+            <Route element={<Music />} path="/aaa/music" />
+            <Route element={<MusicSinglePage />} path="/aaa/music/:id" />
 
             <Route
               element={
