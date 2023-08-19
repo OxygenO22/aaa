@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aaa/static/css/main.1437d9d1.css",
-    "main.js": "/aaa/static/js/main.83070d8b.js",
+    "main.js": "/aaa/static/js/main.fbe334eb.js",
     "static/media/Ambient.png": "/aaa/static/media/Ambient.5568be426580abae4313.png",
     "static/media/BlackMirror.jpg": "/aaa/static/media/BlackMirror.6b939ef8ab68e12063e0.jpg",
     "static/media/CallCenter.jpg": "/aaa/static/media/CallCenter.87f34afea046128632ab.jpg",
@@ -88,10 +88,10 @@
     "static/media/darkMode.svg": "/aaa/static/media/darkMode.ee503ee8a37b00ed18108764cfabf163.svg",
     "static/media/menu.svg": "/aaa/static/media/menu.62156aa1f3f8ed08b3c42f31823cbef1.svg",
     "main.1437d9d1.css.map": "/aaa/static/css/main.1437d9d1.css.map",
-    "main.83070d8b.js.map": "/aaa/static/js/main.83070d8b.js.map"
+    "main.fbe334eb.js.map": "/aaa/static/js/main.fbe334eb.js.map"
   },
   "entrypoints": [
     "static/css/main.1437d9d1.css",
-    "static/js/main.83070d8b.js"
+    "static/js/main.fbe334eb.js"
   ]
 }
