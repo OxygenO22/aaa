@@ -10,6 +10,7 @@ import { MoviesSinglePage } from "../pages/movies/moviesSinglePage/MoviesSingleP
 import { IntlProvider } from "react-intl";
 import TranslationHelpers from "../../translations/translationHelpers";
 import { useTypedSelector } from "../hooks/useTypedSelector";
+import { NotFoundPage } from "../pages/notFoundPage/NotFoundPage";
 
 export const Router = () => {
   const { languageCode } = useTypedSelector((state) => state.changeLang);
@@ -26,15 +27,7 @@ export const Router = () => {
             <Route element={<MoviesSinglePage />} path="/aaa/:id" />
             <Route element={<Music />} path="/aaa/music" />
             <Route element={<MusicSinglePage />} path="/aaa/music/:id" />
-
-            <Route
-              element={
-                <div>
-                  <h1>Page not found</h1>
-                </div>
-              }
-              path="*"
-            />
+            <Route element={<NotFoundPage />} path="*"/>
           </Route>
         </Routes>
       </BrowserRouter>

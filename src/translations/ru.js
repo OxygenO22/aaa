@@ -10,6 +10,9 @@ export const messages_ru = {
 
   /* «» */
 
+  /* NotFoundPage */
+  "app.NotFoundPage.PageNotFound": "Страница не найдена",
+
   /* Advertising */
   "app.MoviesData.Advertising": "Реклама",
 

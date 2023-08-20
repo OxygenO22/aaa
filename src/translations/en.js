@@ -9,6 +9,9 @@ export const messages_en = {
 
   /* «» */
 
+  /* NotFoundPage */
+  "app.NotFoundPage.PageNotFound": "Page not found",
+
   /* Advertising */
   "app.MoviesData.Advertising": "Advertising",
 
